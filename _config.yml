@@ -48,14 +48,6 @@ navigation:
   - title: Salmon
     url: data_reduction/salmon
 
-  - heading: Support
-  - title: Cheat Sheets
-    url: cheatSheetIndex
-  - title: Software and Links
-    url: software
-  - title: Scripts
-    url: script_links
-
   - heading: Differential Expression and Pathway Analysis
   - title: Prepare Differential Expression Analysis
     url: differential_expression/de_analysis_prepare
@@ -67,6 +59,14 @@ navigation:
     url: differential_expression/enrichment
   - title: Comparison between STAR and Salmon
     url: differential_expression/compare_star_salmon
+
+  - heading: Support
+  - title: Cheat Sheets
+    url: cheatSheetIndex
+  - title: Software and Links
+    url: software
+  - title: Scripts
+    url: script_links
 
   - heading: ETC
   - title: Closing thoughts
