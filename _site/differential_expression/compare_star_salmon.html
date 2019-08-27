@@ -1,0 +1,360 @@
+
+<link rel="stylesheet" href="/assets/highlight/styles/default.css">
+<script src="/assets/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+
+<title>UCD Bioinformatics Core RNA-Seq Workshop</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
+
+<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <link rel="icon" type="image/png"  href="/assets/img/favicon.png">
+        <title>UC Davis Bioinformatics Workshop Base Template by ucdavis-bioinformatics-training</title>
+
+        <link rel="stylesheet" href="/assets/css/styles.css?v=22a1bf1e038521d63472a401b032dbdd184191bc">
+    <meta name="viewport" content="width=device-width">
+
+<body>
+    <div style="background-color: #001A46" class="header sticky" id="myHeader" style="width:100%;">
+      <a href="" class="logo">
+          <img src="/assets/img/biocore_banner.png">
+      </a>
+        <div>
+            <h2 style="float: left;margin:5;background-color:#CFB53B; cursor:pointer;padding-right:50px">
+                <div onclick="doNav()">&#9776; Menu </div>
+            </h2>
+            <h2 style="padding-left:50px;padding-top:10px;background-color:#CFB53B;">UC Davis Bioinformatics Workshop Base Template</h2>
+        </div>
+    </div>
+</body>
+
+
+<div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="doNav()">&times;</a>
+
+        <table style="padding-top: 50px">
+            
+                
+                
+                  <tr><th><a href="/">Home</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Introduction</th>
+                  
+                
+                
+                  <tr><th><a href="/welcome">Intro to the Workshop and Core</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/pdfs/Genomics_a_perspective.pdf">What is Bioinformatics?</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/pdfs/ExperimentalDesign.pdf">Experimental Design and Cost Estimation</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Command-Line and the Cluster</th>
+                  
+                
+                
+                  <tr><th><a href="/cli/logging-in">Logging in and Transferring Files</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/command-line-intro">Intro to Command-Line</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/advanced-command-line">Advanced Command-Line</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/cluster">Running jobs on the Cluster and using modules</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Intro to R and Rstudio</th>
+                  
+                
+                
+                  <tr><th><a href="/intro2R/RStudio">Getting Started</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/Intro2R">Intro to R</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/data_in_R_prepare">Prepare Data in R (extra)</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/orig_data_in_R">Data in R (extra)</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Data Reduction</th>
+                  
+                
+                
+                  <tr><th><a href="/data_reduction/filetypes">Files and Filetypes for RNA-Seq</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/project_setup">Project Setup</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/preproc_htstream">Preprocessing Data</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/alignment">Aligners</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/counts">Generating Summarized Counts</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/salmon">Salmon</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Support</th>
+                  
+                
+                
+                  <tr><th><a href="/cheatSheetIndex">Cheat Sheets</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/software">Software and Links</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/script_links">Scripts</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Differential Expression and Pathway Analysis</th>
+                  
+                
+                
+                  <tr><th><a href="/differential_expression/de_analysis_prepare">Prepare Differential Expression Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/annotation">Get Gene Annotation</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/DE_Analysis">Differential Expression Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/enrichment">Pathway Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/compare_star_salmon">Comparison between STAR and Salmon</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">ETC</th>
+                  
+                
+                
+                  <tr><th><a href="/closing">Closing thoughts</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/photos/photos">Workshop Photos</a></th></tr>
+                
+            
+                
+                
+                  <tr id=Github ><th><a href="https://github.com/ucdavis-bioinformatics-training/2019_August_UCD_mRNAseq_Workshop">Github</a></th></tr>
+                
+            
+                
+                
+                  <tr id=Biocore website ><th><a href="http://bioinformatics.ucdavis.edu">Biocore website</a></th></tr>
+                
+            
+        </table>
+    </div>
+</div>
+
+<div id="main" style="padding-left: 50px; padding-right: 50px; margin-left: 300px; padding-top:160px">
+
+<h3 id="pairwise-correlations-of-normalized-counts-on-same-sample">Pairwise correlations of normalized counts on same sample</h3>
+
+<p><img src="/differential_expression/compare_star_salmon_files/figure-html/unnamed-chunk-5-1.png" alt="" /><!-- --></p>
+
+<p>(Figure shows 4 samples, these are representative of pattern on remaining samples.)</p>
+
+<p>Note the pattern of genes with low expression with STAR and high expression with Salmon.</p>
+
+<h3 id="mds-plot-star-counts">MDS plot, STAR counts:</h3>
+<p><img src="/differential_expression/compare_star_salmon_files/figure-html/unnamed-chunk-6-1.png" alt="" /><!-- --></p>
+
+<h3 id="mds-plot-salmon-counts">MDS plot, Salmon counts</h3>
+<p><img src="/differential_expression/compare_star_salmon_files/figure-html/unnamed-chunk-7-1.png" alt="" /><!-- --></p>
+
+<p>Note that you can rotate or flip an MDS plot without changing the distances between samples (the orientation is arbitrary).  Here’s the Salmon MDS plot rotated to match the orientation of the STAR MDS plot:</p>
+
+<p><img src="/differential_expression/compare_star_salmon_files/figure-html/unnamed-chunk-8-1.png" alt="" /><!-- --></p>
+
+<h3 id="top-10-genes-with-star">Top 10 genes with STAR</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>##     Gene.stable.ID HGNC.symbol     logFC  AveExpr         t      P.Value
+## 1  ENSG00000129824      RPS4Y1 -6.014740 3.826209 -7.151711 7.192005e-07
+## 2  ENSG00000067048       DDX3Y -6.403500 2.913309 -6.830168 1.382919e-06
+## 3  ENSG00000012817       KDM5D -6.390275 2.940730 -6.718986 1.739325e-06
+## 4  ENSG00000198692      EIF1AY -5.184644 1.887900 -6.693343 1.834216e-06
+## 5  ENSG00000099725        PRKY -5.826135 2.973758 -6.443233 3.093471e-06
+## 6  ENSG00000183878         UTY -5.060957 2.437612 -6.356324 3.716707e-06
+## 7  ENSG00000111052       LIN7A -1.675545 5.558748 -6.134283 5.966643e-06
+## 8  ENSG00000114374       USP9Y -5.196104 1.973817 -5.754669 1.359469e-05
+## 9  ENSG00000131002      TXLNGY -5.396197 2.403759 -5.741837 1.398266e-05
+## 10 ENSG00000173597     SULT1B1 -1.348515 6.533206 -5.420129 2.848455e-05
+##      adj.P.Val        B
+## 1  0.006643531 4.687789
+## 2  0.006643531 2.965094
+## 3  0.006643531 2.974988
+## 4  0.006643531 2.138306
+## 5  0.008963642 3.051457
+## 6  0.008974608 2.509162
+## 7  0.012349247 4.011984
+## 8  0.022508972 1.508833
+## 9  0.022508972 1.847063
+## 10 0.041268410 2.625203
+</code></pre></div></div>
+
+<h3 id="top-10-genes-with-salmon">Top 10 genes with Salmon</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>##     Gene.stable.ID HGNC.symbol     logFC  AveExpr         t      P.Value
+## 1  ENSG00000129824      RPS4Y1 -5.964371 3.665746 -6.954325 1.386850e-06
+## 2  ENSG00000067048       DDX3Y -6.352257 2.759204 -6.775343 1.978005e-06
+## 3  ENSG00000198692      EIF1AY -4.964644 1.794527 -6.527168 3.259416e-06
+## 4  ENSG00000012817       KDM5D -6.294545 2.770694 -6.495961 3.472717e-06
+## 5  ENSG00000099725        PRKY -4.659910 3.160600 -6.220045 6.116606e-06
+## 6  ENSG00000183878         UTY -4.913783 2.241138 -6.133448 7.320855e-06
+## 7  ENSG00000111052       LIN7A -1.670540 5.402575 -5.983866 1.000851e-05
+## 8  ENSG00000131002      TXLNGY -5.260164 2.217746 -5.598758 2.267707e-05
+## 9  ENSG00000114374       USP9Y -5.072640 1.879345 -5.494636 2.837586e-05
+## 10 ENSG00000131724     IL13RA1 -1.155352 7.144644 -5.286023 4.462809e-05
+##     adj.P.Val        B
+## 1  0.01257210 4.142661
+## 2  0.01257210 2.827628
+## 3  0.01257210 2.044915
+## 4  0.01257210 2.619452
+## 5  0.01766888 3.199943
+## 6  0.01766888 2.143609
+## 7  0.02070475 3.546144
+## 8  0.04104833 1.561104
+## 9  0.04565676 1.157373
+## 10 0.06462593 2.223904
+</code></pre></div></div>
+
+<p>10 genes are DE (adjusted P &lt; 0.05) with STAR, and 9 genes are DE with Salmon.  All genes DE with Salmon are DE with STAR.</p>
+
+<h3 id="conclusions">Conclusions</h3>
+<ul>
+  <li>STAR and Salmon show differences in quantification of low expressed genes.</li>
+  <li>This does not seem to have much impact on the relative distances between samples or differential expression (note that low expressed genes are often filtered out before analysis).</li>
+  <li>Pick one approach for a project and go with it.</li>
+  <li>Don’t run multiple analyses and pick the one that gives you the most DE genes.</li>
+</ul>
+
+
+
+</div>
+
+
+
+<script src="/assets/js/scale.fix.js"></script>
+
+
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'true', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+<script>
+
+
+var navopen=1;
+
+function doNav() {
+  if (navopen == 1) {
+    document.getElementById("mySidenav").style.width = "0px";
+    document.getElementById("main").style.marginLeft = "0px";
+    document.getElementById("myHeader").style.marginLeft = "0px";
+    navopen = 0;
+  } else {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+    document.getElementById("myHeader").style.marginLeft = "300px";
+    navopen = 1;
+  }
+}
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+//var scrollpos=0;
+//document.getElementById("mySidenav").onscroll = function() {scrollpos = document.getElementById("mySidenav").scrollTop;}
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+</script>

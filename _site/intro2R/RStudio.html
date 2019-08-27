@@ -1,0 +1,439 @@
+
+<link rel="stylesheet" href="/assets/highlight/styles/default.css">
+<script src="/assets/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+
+<title>UCD Bioinformatics Core RNA-Seq Workshop</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
+
+<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <link rel="icon" type="image/png"  href="/assets/img/favicon.png">
+        <title>UC Davis Bioinformatics Workshop Base Template by ucdavis-bioinformatics-training</title>
+
+        <link rel="stylesheet" href="/assets/css/styles.css?v=22a1bf1e038521d63472a401b032dbdd184191bc">
+    <meta name="viewport" content="width=device-width">
+
+<body>
+    <div style="background-color: #001A46" class="header sticky" id="myHeader" style="width:100%;">
+      <a href="" class="logo">
+          <img src="/assets/img/biocore_banner.png">
+      </a>
+        <div>
+            <h2 style="float: left;margin:5;background-color:#CFB53B; cursor:pointer;padding-right:50px">
+                <div onclick="doNav()">&#9776; Menu </div>
+            </h2>
+            <h2 style="padding-left:50px;padding-top:10px;background-color:#CFB53B;">UC Davis Bioinformatics Workshop Base Template</h2>
+        </div>
+    </div>
+</body>
+
+
+<div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="doNav()">&times;</a>
+
+        <table style="padding-top: 50px">
+            
+                
+                
+                  <tr><th><a href="/">Home</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Introduction</th>
+                  
+                
+                
+                  <tr><th><a href="/welcome">Intro to the Workshop and Core</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/pdfs/Genomics_a_perspective.pdf">What is Bioinformatics?</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/pdfs/ExperimentalDesign.pdf">Experimental Design and Cost Estimation</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Command-Line and the Cluster</th>
+                  
+                
+                
+                  <tr><th><a href="/cli/logging-in">Logging in and Transferring Files</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/command-line-intro">Intro to Command-Line</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/advanced-command-line">Advanced Command-Line</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/cluster">Running jobs on the Cluster and using modules</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Intro to R and Rstudio</th>
+                  
+                
+                
+                  <tr><th><a href="/intro2R/RStudio">Getting Started</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/Intro2R">Intro to R</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/data_in_R_prepare">Prepare Data in R (extra)</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/orig_data_in_R">Data in R (extra)</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Data Reduction</th>
+                  
+                
+                
+                  <tr><th><a href="/data_reduction/filetypes">Files and Filetypes for RNA-Seq</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/project_setup">Project Setup</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/preproc_htstream">Preprocessing Data</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/alignment">Aligners</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/counts">Generating Summarized Counts</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/salmon">Salmon</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Support</th>
+                  
+                
+                
+                  <tr><th><a href="/cheatSheetIndex">Cheat Sheets</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/software">Software and Links</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/script_links">Scripts</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Differential Expression and Pathway Analysis</th>
+                  
+                
+                
+                  <tr><th><a href="/differential_expression/de_analysis_prepare">Prepare Differential Expression Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/annotation">Get Gene Annotation</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/DE_Analysis">Differential Expression Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/enrichment">Pathway Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/compare_star_salmon">Comparison between STAR and Salmon</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">ETC</th>
+                  
+                
+                
+                  <tr><th><a href="/closing">Closing thoughts</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/photos/photos">Workshop Photos</a></th></tr>
+                
+            
+                
+                
+                  <tr id=Github ><th><a href="https://github.com/ucdavis-bioinformatics-training/2019_August_UCD_mRNAseq_Workshop">Github</a></th></tr>
+                
+            
+                
+                
+                  <tr id=Biocore website ><th><a href="http://bioinformatics.ucdavis.edu">Biocore website</a></th></tr>
+                
+            
+        </table>
+    </div>
+</div>
+
+<div id="main" style="padding-left: 50px; padding-right: 50px; margin-left: 300px; padding-top:160px">
+
+<h2 id="what-is-r">What is R?</h2>
+<p><a href="http://r-project.org/">R</a> is a language and environment for statistical computing and graphics developed in 1993. It provides a wide variety of statistical and graphical techniques (linear and nonlinear modeling, statistical tests, time series analysis, classification, clustering, …), and is highly extensible, meaning that the user community can write new R tools. It is a GNU project (Free and Open Source).</p>
+
+<p>The R language has its roots in the S language and environment which was developed at Bell Laboratories (formerly AT&amp;T, now Lucent Technologies) by John Chambers and colleagues. R was created by Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand, and now, R is developed by the R Development Core Team, of which Chambers is a member. R is named partly after the first names of the first two R authors (Robert Gentleman and Ross Ihaka), and partly as a play on the name of S. R can be considered as a different implementation of S. There are some important differences, but much code written for S runs unaltered under R.</p>
+
+<p>Some of R’s strengths:</p>
+<ul>
+  <li>The ease with which well-designed publication-quality plots can be produced, including mathematical symbols and formulae where needed. Great care has been taken over the defaults for the minor design choices in graphics, but the user retains full control.</li>
+  <li>It compiles and runs on a wide variety of UNIX platforms and similar systems (including FreeBSD and Linux), Windows and MacOS.</li>
+  <li>R can be extended (easily) via packages.</li>
+  <li>R has its own LaTeX-like documentation format, which is used to supply comprehensive documentation, both on-line in a number of formats and in hardcopy.</li>
+  <li>It has a vast community both in academia and in business.</li>
+  <li>It’s FREE!</li>
+</ul>
+
+<h3 id="the-r-environment">The R environment</h3>
+<p>R is an integrated suite of software facilities for data manipulation, calculation and graphical display. It includes</p>
+
+<ul>
+  <li>an effective data handling and storage facility,</li>
+  <li>a suite of operators for calculations on arrays, in particular matrices,</li>
+  <li>a large, coherent, integrated collection of intermediate tools for data analysis,</li>
+  <li>graphical facilities for data analysis and display either on-screen or on hardcopy, and</li>
+  <li>a well-developed, and effective programming language which includes conditionals, loops, user-defined recursive functions and input and output facilities.</li>
+</ul>
+
+<p>The term “environment” is intended to characterize it as a fully planned and coherent system, rather than an incremental accretion of very specific and inflexible tools, as is frequently the case with other data analysis software.</p>
+
+<p>R, like S, is designed around a true computer language, and it allows users to add additional functionality by defining new functions. Much of the system is itself written in the R dialect of S, which makes it easy for users to follow the algorithmic choices made. For computationally-intensive tasks, C, C++ and Fortran code can be linked and called at run time. Advanced users can write C code to manipulate R objects directly.</p>
+
+<p>Many users think of R as a statistics system. The R group prefers to think of it of an environment within which statistical techniques are implemented.</p>
+
+<h3 id="the-r-homepage">The R Homepage</h3>
+<p>The R homepage has a wealth of information on it,</p>
+
+<p><a href="http://r-project.org/">R-project.org</a></p>
+
+<p>On the homepage you can:</p>
+<ul>
+  <li>Learn more about R</li>
+  <li>Download R</li>
+  <li>Get Documentation (official and user supplied)</li>
+  <li>Get access to CRAN ‘Comprehensive R archival network’</li>
+</ul>
+
+<h2 id="rstudio">RStudio</h2>
+
+<p><a href="http://rstudio.org/">RStudio</a> started in 2010, to offer R a more full featured integrated development environment (IDE) and modeled after matlabs IDE.</p>
+
+<p>RStudio has many features:</p>
+<ul>
+  <li>syntax highlighting</li>
+  <li>code completion</li>
+  <li>smart indentation</li>
+  <li>“Projects”</li>
+  <li>workspace browser and data viewer</li>
+  <li>embedded plots</li>
+  <li>Markdown notebooks, Sweave authoring and knitr with one click pdf or html</li>
+  <li>runs on all platforms and over the web</li>
+  <li>etc. etc. etc.</li>
+</ul>
+
+<p>RStudio and its team have contributed to many R packages.[13] These include:</p>
+
+<ul>
+  <li>Tidyverse – R packages for data science, including ggplot2, dplyr, tidyr, and purrr</li>
+  <li>Shiny – An interactive web technology</li>
+  <li>RMarkdown – Insert R code into markdown documents</li>
+  <li>knitr – Dynamic reports combining R, TeX, Markdown &amp; HTML</li>
+  <li>packrat – Package dependency tool</li>
+  <li>devtools – Package development tool</li>
+</ul>
+
+<p><strong>1.</strong> Getting started</p>
+
+<p>Let’s start RStudio</p>
+
+<p><img src="RStudio_figures/RStudio_open.png" alt="RStudio_open" width="800px" /></p>
+
+<p><strong>2.</strong> Open a new RScript File</p>
+
+<p>File -&gt; New File -&gt; R Script</p>
+
+<p><img src="RStudio_figures/RStudio_newfile.png" alt="RStudio_newfile" width="800px" /></p>
+
+<p>Then save the new empty file as Intro2R.R</p>
+
+<p>File -&gt; Save as -&gt; Intro2R.R</p>
+
+<p><strong>3.</strong> Basics of your environment</p>
+
+<p>The R prompt is the ‘&gt;’ , when R is expecting more (command is not complete) you see a ‘+’</p>
+
+<p><img src="RStudio_figures/Prompt.png" alt="Prompt" width="500px" /></p>
+
+<p><strong>4.</strong> Writing and running R commands</p>
+
+<p>In the source editor (top left by default)
+type</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>getwd()
+</code></pre></div></div>
+
+<p>Then on the line Control + Enter (Linux/Windows), Command + Enter (Mac) to execute the line.</p>
+
+<p><strong>5.</strong> The assignment operator ( &lt;- ) vs equals ( = )</p>
+
+<p>The assignment operator is used assign data to a variable</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x &lt;- 1:10
+x
+</code></pre></div></div>
+
+<div class="output">[1]  1  2  3  4  5  6  7  8  9 10
+</div>
+
+<p>In this case, the equal sign works as well</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x = 1:10
+x
+</code></pre></div></div>
+
+<div class="output">[1]  1  2  3  4  5  6  7  8  9 10
+</div>
+
+<p>But you should <strong>NEVER EVER DO THIS</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1:10 -&gt; x
+x
+</code></pre></div></div>
+
+<div class="output">[1]  1  2  3  4  5  6  7  8  9 10
+</div>
+
+<p>The two act the same in most cases. The difference in assignment operators is clearer when you use them to set an argument value in a function call. For example:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>median(x = 1:10)
+x 
+</code></pre></div></div>
+
+<div class="output">Error: object 'x' not found
+</div>
+
+<p>In this case, x is declared within the scope of the function, so it does not exist in the user workspace.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>median(x &lt;- 1:10)
+x
+</code></pre></div></div>
+
+<div class="output">[1]  1  2  3  4  5  6  7  8  9 10
+</div>
+
+<p>In this case, x is declared in the user workspace, so you can use it after the function call has been completed. There is a general preference among the R community for using &lt;- for assignment (other than in function signatures)</p>
+
+<p><strong>6.</strong> The RStudio Cheat Sheets</p>
+
+<p><a href="https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf">rstudio-ide.pdf</a></p>
+
+<p>spend 15m getting to know RStudio a little</p>
+
+
+</div>
+
+
+
+<script src="/assets/js/scale.fix.js"></script>
+
+
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'true', 'auto');
+    ga('send', 'pageview');
+</script>
+
+
+<script>
+
+
+var navopen=1;
+
+function doNav() {
+  if (navopen == 1) {
+    document.getElementById("mySidenav").style.width = "0px";
+    document.getElementById("main").style.marginLeft = "0px";
+    document.getElementById("myHeader").style.marginLeft = "0px";
+    navopen = 0;
+  } else {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+    document.getElementById("myHeader").style.marginLeft = "300px";
+    navopen = 1;
+  }
+}
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+//var scrollpos=0;
+//document.getElementById("mySidenav").onscroll = function() {scrollpos = document.getElementById("mySidenav").scrollTop;}
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+</script>
