@@ -1,6 +1,6 @@
 All documentation for the workshop is best viewed from the github.io pages
 
-[Documentation](https://ucdavis-bioinformatics-training.github.io/2019_August_UCD_mRNAseq_Workshop/)
+[Documentation](https://ucdavis-bioinformatics-training.github.io/ucdavis-bioinformatics-training_template/)
 
 Bioinformatics: RNA-Seq Workshop @ UC Davis  
 Aug. 19, 2019, 9 a.m. - Aug. 23, 2019, 4:30 p.m.  
