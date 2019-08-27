@@ -1,0 +1,522 @@
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146433201-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146433201-1');
+
+</script>
+</head>
+
+
+<link rel="stylesheet" href="/assets/highlight/styles/default.css">
+
+<script src="/assets/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<title>UCD Bioinformatics Core RNA-Seq Workshop</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
+
+<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <link rel="icon" type="image/png"  href="/assets/img/favicon.png">
+        <title>UC Davis Bioinformatics Workshop Base Template by ucdavis-bioinformatics-training</title>
+
+        <link rel="stylesheet" href="/assets/css/styles.css?v=22a1bf1e038521d63472a401b032dbdd184191bc">
+    <meta name="viewport" content="width=device-width">
+
+<body>
+    <div style="background-color: #001A46" class="header sticky" id="myHeader" style="width:100%;">
+      <a href="https://bioinformatics.ucdavis.edu/training/" class="logo">
+          <img src="/assets/img/biocore_banner.png">
+      </a>
+        <div>
+            <h2 style="float: left;padding-left:10px;padding-top:8px;background-color:#CFB53B; cursor:pointer;">
+                <div onclick="doNav()">&#9776; Menu </div>
+            </h2>
+            <h2 style="border-radius: 0px;padding-top:10px;background-color:#CFB53B;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UC Davis Bioinformatics Workshop Base Template</h2>
+        </div>
+    </div>
+</body>
+
+
+<div>
+    <div id="mySidenav" class="sidenav">
+      <!-- <a href="javascript:void(0)" class="closebtn" onclick="doNav()">&times;</a> -->
+
+        <table style="padding-top: 50px">
+            
+                
+                
+                  <tr><th><a href="/">Home</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Introduction</th>
+                  
+                
+                
+                  <tr><th><a href="/welcome">Intro to the Workshop and Core</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/pdfs/Genomics_a_perspective.pdf">What is Bioinformatics?</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/pdfs/ExperimentalDesign.pdf">Experimental Design and Cost Estimation</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Command-Line and the Cluster</th>
+                  
+                
+                
+                  <tr><th><a href="/cli/logging-in">Logging in and Transferring Files</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/command-line-intro">Intro to Command-Line</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/advanced-command-line">Advanced Command-Line</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/cluster">Running jobs on the Cluster and using modules</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Intro to R and Rstudio</th>
+                  
+                
+                
+                  <tr><th><a href="/intro2R/RStudio">Getting Started</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/Intro2R">Intro to R</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/data_in_R_prepare">Prepare Data in R (extra)</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/orig_data_in_R">Data in R (extra)</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Data Reduction</th>
+                  
+                
+                
+                  <tr><th><a href="/data_reduction/filetypes">Files and Filetypes for RNA-Seq</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/project_setup">Project Setup</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/preproc_htstream">Preprocessing Data</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/alignment">Aligners</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/counts">Generating Summarized Counts</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/salmon">Salmon</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Support</th>
+                  
+                
+                
+                  <tr><th><a href="/cheatSheetIndex">Cheat Sheets</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/software">Software and Links</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/script_links">Scripts</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Differential Expression and Pathway Analysis</th>
+                  
+                
+                
+                  <tr><th><a href="/differential_expression/de_analysis_prepare">Prepare Differential Expression Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/annotation">Get Gene Annotation</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/DE_Analysis">Differential Expression Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/enrichment">Pathway Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/compare_star_salmon">Comparison between STAR and Salmon</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">ETC</th>
+                  
+                
+                
+                  <tr><th><a href="/closing">Closing thoughts</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/photos/photos">Workshop Photos</a></th></tr>
+                
+            
+                
+                
+                  <tr id=Github ><th><a href="https://github.com/ucdavis-bioinformatics-training/2019_August_UCD_mRNAseq_Workshop">Github</a></th></tr>
+                
+            
+                
+                
+                  <tr id=Biocore website ><th><a href="http://bioinformatics.ucdavis.edu">Biocore website</a></th></tr>
+                
+            
+        </table>
+    </div>
+</div>
+
+
+<div id="main" style="padding-left: 50px; padding-right: 50px; margin-left: 300px; padding-top:170px">
+
+<h1 id="files-and-file-types">Files and File Types</h1>
+
+<p>The primary file types you’ll see related to DNA sequence analysis are:</p>
+
+<ul>
+  <li>fasta</li>
+  <li>fastq</li>
+  <li>gtf/gff</li>
+  <li>sam/bam/cram</li>
+  <li>bed</li>
+</ul>
+
+<h2 id="sequence-based-file-types">Sequence based file types</h2>
+<p>Sequence based files first started out as fasta with paired qual files (Sanger and 454), with Illumina and quality scores being used more, the fastq file became the default output from DNA sequencers. These days additional file types are being used, including fast5 by Oxford Nanopore and ‘unmapped’ bam files by Pacific Biosciences.</p>
+
+<p><img src="filetypes_figures/filetypes_figure1.png" alt="figure1" width="350px" /></p>
+
+<h3 id="fasta">fasta</h3>
+<p>The fasta format uses the ‘&gt;’ to indicate a new sequence followed by the name of the sequence on the same line. The following line(s) are the DNA sequence and may be split on multiple lines (wrapped), until the next ‘&gt;’ is reached. Genome and transcriptome files are most often in fasta format.</p>
+
+<p><img src="filetypes_figures/filetypes_figure2.png" alt="figure2" width="800px" /></p>
+
+<p>Qual files are so rarely used these days and so are not discussed.</p>
+
+<h3 id="fastq">fastq</h3>
+<p>fastq files combine the sequence and quality scores into 1 file. Each sequence here has 4 lines (should be enforced strictly), header, sequence, historical ‘+’, and quality.</p>
+
+<p><img src="filetypes_figures/filetypes_figure3.png" alt="figure3" width="800px" /></p>
+
+<p>CASAVA 1.8 Read IDs</p>
+
+<p>@EAS139:136:FC706VJ:2:2104:15343:197393 1:Y:18:ATCACG</p>
+<ul>
+  <li>EAS139 the unique instrument name</li>
+  <li>136 the run id</li>
+  <li>FC706VJ the flowcell id</li>
+  <li>2 flowcell lane</li>
+  <li>2104 tile number within the flowcell lane</li>
+  <li>15343 ’x’-coordinate of the cluster within the tile</li>
+  <li>197393 ’y’-coordinate of the cluster within the tile</li>
+  <li>1 the member of a pair, 1 or 2 (paired-end or mate-pair reads only)</li>
+  <li>Y Y if the read fails filter (read is bad), N otherwise</li>
+  <li>18 0 when none of the control bits are on, otherwise it is an even number</li>
+  <li>ATCACG index sequence</li>
+</ul>
+
+<h4 id="quality-scores">Quality scores</h4>
+<p>Quality scores are paired 1 to 1 with sequence characters.</p>
+
+<p>Each quality character has a numerical value associated with it (ASCII value). In Illumina 1.8+ you subtract 33 from the ascii value associated with the quality character to get the quality score.</p>
+
+<p><img src="filetypes_figures/filetypes_figure5.png" alt="figure5" width="800px" /></p>
+
+<p><img src="filetypes_figures/filetypes_figure4b.png" alt="figure4b" width="400px" /></p>
+
+<p><img src="filetypes_figures/filetypes_figure4a.png" alt="figure4a" width="400px" /></p>
+
+<h2 id="annotation-based-file-types">Annotation based file Types</h2>
+
+<h3 id="gene-transfer-format-gtf--gene-feature-format-gff">Gene Transfer Format (GTF) / Gene Feature Format (GFF)</h3>
+
+<p>Describes feature (ex. gene) locations within a sequence file (ex. genome).</p>
+
+<p>The GFF (General Feature Format) format consists of one line per feature, each containing 9 columns of data (fields). The GTF (General Transfer Format) is identical to GFF version 2. The GTF file format tends to have stricter requirements and expectations on how feature descriptions are formated.</p>
+
+<p>Fields must be tab-separated and all fields must contain a value; “empty” fields should be denoted with a ‘.’.</p>
+
+<p>Columns:</p>
+<ul>
+  <li>Seqname: Name of the sequence chromosome
+Source: the program, or database, that generated the feature</li>
+  <li>Feature: feature type name, (e.g. gene, exon, cds, etc.)</li>
+  <li>Start: start position of the feature, sequences begin at 1</li>
+  <li>End: stop position of the feature, sequences begin at 1</li>
+  <li>Score: a floating point value (e.g. 0.01)
+Strand: Defined as ‘+’ (forward),or ‘-’ (reverse)</li>
+  <li>Frame: One of ‘0’, ‘1’, ‘2’, ‘0’ represents the first base of a codon.</li>
+  <li>Attribute: A semicolon-separated list of tag-value pairs, providing additional information about each feature.</li>
+</ul>
+
+<p><img src="filetypes_figures/filetypes_figure6.png" alt="figure6" width="800px" /></p>
+
+<h4 id="sources">Sources</h4>
+<ul>
+  <li>Ensembl genomes ( http://ensemblgenomes.org/ ) and annotation at Biomart ( http://www.ensembl.org/biomart/martview/ )</li>
+  <li>Human/mouse: GENCODE (uses Ensembl IDs) ( https://www.gencodegenes.org/ ), but may need some manipulation to work with certain software.</li>
+  <li>NCBI genomes ( http://www.ncbi.nlm.nih.gov/genome/ )</li>
+  <li>Many specialized databases (Phytozome, Patric, VectorBase, FlyBase, WormBase)</li>
+</ul>
+
+<h2 id="alignment-based-file-types">Alignment based file types</h2>
+
+<h3 id="sambamcram">SAM/BAM/CRAM</h3>
+
+<p>The project managing the specifications and common software is http://www.htslib.org/.</p>
+
+<p>SAM (Sequence Alignment/Map) format is the unified format for storing read alignments to a reference sequence (consistent since Sept. 2011).
+http://samtools.github.io/hts-specs/SAMv1.pdf
+http://samtools.github.io/hts-specs/SAMtags.pdf</p>
+
+<p>BAM  are compressed SAMs (binary, not human-readable). They can be indexed to allow rapid extraction of information, so alignment viewers do not need to uncompress the whole BAM file in order to look at information for a particular coordinate range, somewhere in the file.</p>
+
+<p>Indexing your BAM file, mybam.bam, will create an index file, mybam.bam.bai, which is needed (in addition to the BAM file) by viewers and some downstream tools.</p>
+
+<p>CRAM is an even more compressed SAM/BAM file and has the following major objectives:</p>
+<ol>
+  <li>Significantly better lossless compression than BAM</li>
+  <li>Full compatibility with BAM</li>
+  <li>Effortless transition to CRAM from using BAM files</li>
+  <li>Support for controlled loss of BAM data</li>
+</ol>
+
+<p>CRAM files are also indexed and produce .cram.crai index files.</p>
+
+<p><strong>The SAM format contain two regions:</strong></p>
+
+<p>The header section -
+Each header line begins with character ’@’ followed by a two-letter record type code.</p>
+
+<p>The alignment section -
+Each alignment line has 11 mandatory fields. These fields always appear in the same order and must be present, but their values can be ’0’ or ’*’, if the corresponding information if unavailable, or not applicable.</p>
+
+<h4 id="header-section">Header section</h4>
+
+<p>Each header line begins with the character ‘@’ followed by one of the two-letter header record type codes. In the header, each line is TAB-delimited and, apart from @CO lines, each data field
+follows a format ‘TAG:VALUE’ where TAG is a two-character string that defines the format and content of
+VALUE.</p>
+
+<p>The following tags are required:</p>
+
+<ul>
+  <li>@HD The header line. The first line if present.
+    <ul>
+      <li>VN* Format version. Accepted format: /^[0-9]+.[0-9]+$/.</li>
+    </ul>
+  </li>
+  <li>@SQ Reference sequence dictionary. The order of @SQ lines defines the alignment sorting order.
+    <ul>
+      <li>SN* Reference sequence name. The SN tags and all individual AN names in all @SQ lines must be distinct. The value of this field is used in the alignment records in RNAME and RNEXT fields. Regular expression: [:rname:∧ <em>=][:rname:]</em></li>
+      <li>LN* Reference sequence length. Range: [1, 2
+31 − 1]</li>
+    </ul>
+  </li>
+  <li>@RG Read group. Unordered multiple @RG lines are allowed.
+    <ul>
+      <li>ID* Read group identifier. Each @RG line must have a unique ID. The value of ID is used in the RG tags of alignment records. Must be unique among all read groups in header section. Read group IDs may be modified when merging SAM files in order to handle collisions.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Many more tags are detailed in the specifications.</p>
+
+<h4 id="alignment-section">Alignment section</h4>
+
+<p>The alignment section consists of 11 tab delimited fields.</p>
+
+<p><img src="filetypes_figures/filetypes_figure7.png" alt="figure7" width="500px" /></p>
+
+<p><strong>QNAME: Query name</strong><br />
+Read IDs are truncated at first whitespace (spaces / tabs), which can make them non-unique. Illumina reads with older IDs have trailing “/1” and “/2” stripped (this information is recorded in the next field). Illumina reads with newer IDs have second block stripped (read number is recorded in the next field).</p>
+
+<p>@FCC6889ACXX:5:1101:8446:45501#CGATGTATC/1 ⇒ @FCC6889ACXX:5:1101:8446:45501<br />
+@HISEQ:153:H8ED7ADXX:1:1101:1368:2069 1:N:0:ATCACG ⇒ @HISEQ:153:H8ED7ADXX:1:1101:1368:2069</p>
+
+<p><strong>FLAG: Alignment flags</strong></p>
+
+<p><img src="filetypes_figures/filetypes_figure8.png" alt="figure8" width="800px" /></p>
+
+<p>Tool to help explain flags</p>
+
+<p>https://broadinstitute.github.io/picard/explain-flags.html</p>
+
+<p><strong>RNAME: reference sequence name</strong><br />
+Reference sequence ID (from fasta header) matches a @SQ field in the header section.</p>
+
+<p><strong>POS: 1-based leftmost position of (post-clipping) aligned read</strong></p>
+
+<p><strong>MAPQ: mapping quality (phred scaled)</strong><br />
+MAPQ, contains the “phred-scaled posterior probability that the mapping position” is wrong. <br />
+In a probabilistic view, each read alignment is an estimate of the true alignment and is therefore also a random variable. It can be wrong. The error probability is scaled in the Phred. For example, given 1000 read alignments with mapping quality being 30, one of them will be incorrectly mapped to the wrong location on average.<br />
+A value 255 indicates that the mapping quality is not available.</p>
+
+<h6 id="mapq-explained">MAPQ explained</h6>
+<p>The calculation of mapping qualities is simple, but this simple calculation considers many of the factors below:</p>
+<ul>
+  <li>The repeat structure of the reference. Reads falling in repetitive regions usually get very low mapping quality.</li>
+  <li>The base quality of the read. Low quality means the observed read sequence is possibly wrong, and wrong sequence may lead to a wrong alignment.</li>
+  <li>The sensitivity of the alignment algorithm. The true hit is more likely to be missed by an algorithm with low sensitivity, which also causes mapping errors.</li>
+  <li>Paired end or not. Reads mapped in proper pairs are more likely to be correct.</li>
+</ul>
+
+<p>When you see a read alignment with a mapping quality of 30 or greater, it usually implies:</p>
+<ul>
+  <li>The overall base quality of the read is good.</li>
+  <li>The best alignment has few mismatches.</li>
+  <li>The read has just one ‘good’ hit on the reference, which means the current alignment is still the best even if one or two bases are actually mutations, or sequencing errors.</li>
+</ul>
+
+<p><em><strong>In practice however, each mapping application seems to compute the MAPQ in their own way.</strong></em></p>
+
+<p><strong>CIGAR: Compact Idiosyncratic Gapped Alignment Report (CIGAR)</strong><br />
+The CIGAR string is used to calculate how a sequence aligns to the reference. Format: [0-9][MIDNSHP][0-9][MIDNSHP]… where M = match, I/D = insertion / deletion, N = skipped bases on reference (splicing), S/H = soft / hard clip (hard clipped bases no longer appear in the sequence field), P = padding.</p>
+
+<p>e.g. “100M” means that all 100 bases in the read align to bases in the reference.</p>
+
+<p><img src="filetypes_figures/filetypes_figure10.png" alt="figure10" width="350px" /></p>
+
+<p><img src="filetypes_figures/filetypes_figure9.png" alt="figure9" width="350px" /></p>
+
+<ul>
+  <li>“Consumes query” and “consumes reference” indicate whether the CIGAR operation causes the alignment to step along the query sequence and the reference sequence respectively.</li>
+  <li>H can only be present as the first and/or last operation.</li>
+  <li>S may only have H operations between them and the ends of the CIGAR string.</li>
+  <li>For mRNA-to-genome alignment, an N operation represents an intron. For other types of alignments, the interpretation of N is not defined.</li>
+  <li>Sum of lengths of the M/I/S/=/X operations shall equal the length of SEQ.</li>
+</ul>
+
+<p><strong>RNEXT: reference sequence name of the primary alignment of the next read in the template.</strong><br />
+For the last read, the next read is the first read in the template. If @SQ header lines are present, RNEXT (if not ‘<em>’ or ‘=’) must be present in one of the SQ-SN tag. This field is set as ‘</em>’ when the information is unavailable, and set as ‘=’ if RNEXT is identical RNAME. If not ‘=’ and the next read in the template has one primary mapping (see also bit 0x100 in FLAG), this field is identical to RNAME at the primary line of the next read. If RNEXT is ‘*’, no assumptions can be made on PNEXT and bit 0x20.</p>
+
+<p><strong>PNEXT: 1-based position of the primary alignment of the next read in the template.</strong><br />
+This field equals POS at the primary alignment of the next read. If PNEXT is 0, no assumptions can be made on RNEXT and bit 0x20. Set as 0 when the information is unavailable.</p>
+
+<p><strong>TLEN: The signed observed Template length.</strong><br />
+If all segments are mapped to the same reference, the unsigned observed template length equals the number of bases from the leftmost mapped base to the rightmost mapped base. The leftmost segment has a plus sign and the rightmost has a minus sign. The sign of segments in the middle is undefined. It is set as 0 for single-segment template or when the information is unavailable.</p>
+
+<p><strong>SEQ: segment sequence</strong><br />
+The sequence that was aligned. If hard clipping occurred, only the aligned portion is represented, if soft clipping occurred, the original sequence is present.</p>
+
+<p><strong>QUAL: segment quality scores</strong><br />
+The quality scores of the sequence that was aligned. If hard clipping occurred, only the aligned portion is represented, if soft clipping occurred, the original sequence is present.</p>
+
+
+</div>
+
+
+
+<script src="/assets/js/scale.fix.js"></script>
+
+<script>
+var navopen=1;
+
+function doNav() {
+  if (navopen == 1) {
+    document.getElementById("mySidenav").style.width = "0px";
+    document.getElementById("main").style.marginLeft = "0px";
+    document.getElementById("myHeader").style.marginLeft = "0px";
+    document.getElementById("mySidenav").style.overflowY = "hidden";
+    navopen = 0;
+  } else {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+    document.getElementById("myHeader").style.marginLeft = "300px";
+    document.getElementById("mySidenav").style.overflowY = "visible";
+    navopen = 1;
+  }
+}
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// store the sidenav scroll pos for loading or set the pos
+sn = document.getElementById("mySidenav");
+sn.onscroll = function() {sessionStorage.setItem("scrollpos",sn.scrollTop);};
+window.onload = function() {sn.scrollTop = sessionStorage.getItem("scrollpos");};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+</script>

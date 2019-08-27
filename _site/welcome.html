@@ -1,0 +1,390 @@
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146433201-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146433201-1');
+
+</script>
+</head>
+
+
+<link rel="stylesheet" href="/assets/highlight/styles/default.css">
+
+<script src="/assets/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<title>UCD Bioinformatics Core RNA-Seq Workshop</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
+
+<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <link rel="icon" type="image/png"  href="/assets/img/favicon.png">
+        <title>UC Davis Bioinformatics Workshop Base Template by ucdavis-bioinformatics-training</title>
+
+        <link rel="stylesheet" href="/assets/css/styles.css?v=22a1bf1e038521d63472a401b032dbdd184191bc">
+    <meta name="viewport" content="width=device-width">
+
+<body>
+    <div style="background-color: #001A46" class="header sticky" id="myHeader" style="width:100%;">
+      <a href="https://bioinformatics.ucdavis.edu/training/" class="logo">
+          <img src="/assets/img/biocore_banner.png">
+      </a>
+        <div>
+            <h2 style="float: left;padding-left:10px;padding-top:8px;background-color:#CFB53B; cursor:pointer;">
+                <div onclick="doNav()">&#9776; Menu </div>
+            </h2>
+            <h2 style="border-radius: 0px;padding-top:10px;background-color:#CFB53B;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UC Davis Bioinformatics Workshop Base Template</h2>
+        </div>
+    </div>
+</body>
+
+
+<div>
+    <div id="mySidenav" class="sidenav">
+      <!-- <a href="javascript:void(0)" class="closebtn" onclick="doNav()">&times;</a> -->
+
+        <table style="padding-top: 50px">
+            
+                
+                
+                  <tr><th><a href="/">Home</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Introduction</th>
+                  
+                
+                
+                  <tr><th><a href="/welcome">Intro to the Workshop and Core</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/pdfs/Genomics_a_perspective.pdf">What is Bioinformatics?</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/pdfs/ExperimentalDesign.pdf">Experimental Design and Cost Estimation</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Command-Line and the Cluster</th>
+                  
+                
+                
+                  <tr><th><a href="/cli/logging-in">Logging in and Transferring Files</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/command-line-intro">Intro to Command-Line</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/advanced-command-line">Advanced Command-Line</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/cluster">Running jobs on the Cluster and using modules</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Intro to R and Rstudio</th>
+                  
+                
+                
+                  <tr><th><a href="/intro2R/RStudio">Getting Started</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/Intro2R">Intro to R</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/data_in_R_prepare">Prepare Data in R (extra)</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/orig_data_in_R">Data in R (extra)</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Data Reduction</th>
+                  
+                
+                
+                  <tr><th><a href="/data_reduction/filetypes">Files and Filetypes for RNA-Seq</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/project_setup">Project Setup</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/preproc_htstream">Preprocessing Data</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/alignment">Aligners</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/counts">Generating Summarized Counts</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/salmon">Salmon</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Support</th>
+                  
+                
+                
+                  <tr><th><a href="/cheatSheetIndex">Cheat Sheets</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/software">Software and Links</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/script_links">Scripts</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Differential Expression and Pathway Analysis</th>
+                  
+                
+                
+                  <tr><th><a href="/differential_expression/de_analysis_prepare">Prepare Differential Expression Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/annotation">Get Gene Annotation</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/DE_Analysis">Differential Expression Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/enrichment">Pathway Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/compare_star_salmon">Comparison between STAR and Salmon</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">ETC</th>
+                  
+                
+                
+                  <tr><th><a href="/closing">Closing thoughts</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/photos/photos">Workshop Photos</a></th></tr>
+                
+            
+                
+                
+                  <tr id=Github ><th><a href="https://github.com/ucdavis-bioinformatics-training/2019_August_UCD_mRNAseq_Workshop">Github</a></th></tr>
+                
+            
+                
+                
+                  <tr id=Biocore website ><th><a href="http://bioinformatics.ucdavis.edu">Biocore website</a></th></tr>
+                
+            
+        </table>
+    </div>
+</div>
+
+
+<div id="main" style="padding-left: 50px; padding-right: 50px; margin-left: 300px; padding-top:170px">
+
+<h1 id="quick-introduction-to-the-workshop-and-core">Quick Introduction to the Workshop and Core</h1>
+
+<p><strong>The mission of the Bioinformatics Core facility is to facilitate outstanding omics-scale research through these activities:</strong></p>
+
+<p><img src="base_figures/welcome_figure1.png" alt="welcome_figure1" width="800px" /></p>
+
+<h2 id="staff">Staff</h2>
+
+<p><img src="base_figures/welcome_figure2.png" alt="welcome_figure2" width="800px" /></p>
+
+<h2 id="contacts">Contacts</h2>
+
+<ul>
+  <li>Bioinformatics related questions, include but not limited to bioinformatic methods questions, software use, data questions.
+    <ul>
+      <li>Bioinformatics.core@ucdavis.edu</li>
+    </ul>
+  </li>
+  <li>Computing Issues, include but not limited to user account questions, equipment failure/malfunction, software install, software failures (not related to use)
+    <ul>
+      <li>helpdesk@genomecenter.ucdavis.edu</li>
+    </ul>
+  </li>
+  <li>Training courses information
+    <ul>
+      <li>training.bioinformatics@ucdavis.edu</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="workshop-goals">Workshop Goals</h2>
+
+<ul>
+  <li>End to End understanding of RNAseq differential
+    <ul>
+      <li>Discussions/lectures</li>
+      <li>Technologies</li>
+      <li>Experimental design</li>
+      <li>Cost estimation</li>
+      <li>Workflow</li>
+      <li>mRNA gene expression analysis</li>
+    </ul>
+  </li>
+  <li>To work through a complete experiment, starting from raw data to completion, including making a few figures.</li>
+  <li>Goal is 30-40% lecture/discussion 60-70% hands-on</li>
+</ul>
+
+<h2 id="internet">Internet</h2>
+
+<p>You will need to access the UCD wireless via your laptop to participate in the hands-on exercises.</p>
+
+<h3 id="eduroam">Eduroam</h3>
+
+<p>Many academic institutions are part of Eduroam. (See “List of Institutions” under
+“Members” at https://www.eduroam.us/ to find out if your institution is a member.) Please make sure you
+can log into Eduroam with your device at your home institution, which will make things easier once you come to UCD.</p>
+
+<h3 id="ucd-guest-wireless">UCD Guest wireless</h3>
+
+<p>You will need to access the UCD wireless via your laptop to participate in the hands-on exercises. Please review <a href="http://itcatalog.ucdavis.edu/service/wireless-guest-access">http://itcatalog.ucdavis.edu/service/wireless-guest-access</a> for access instructions.</p>
+
+<h2 id="workshop-materials">Workshop Materials</h2>
+
+<p>Workshop materials are all posted on github, and publicly available</p>
+
+<p>http://bioinformatics.ucdavis.edu/training/events/</p>
+
+<ul>
+  <li>
+    <p>Github main page:</p>
+
+    <p>https://github.com/ucdavis-bioinformatics-training</p>
+  </li>
+  <li>
+    <p>This RNAseq Workshop</p>
+
+    <p>https://ucdavis-bioinformatics-training.github.io/2019_August_UCD_mRNAseq_Workshop/</p>
+
+    <p>https://github.com/ucdavis-bioinformatics-training/2019_August_UCD_mRNAseq_Workshop</p>
+  </li>
+</ul>
+
+<h2 id="computing-cluster">Computing Cluster</h2>
+
+<p>Course will be conducted on our servers and compute cluster .<br />
+tadpole.genomecenter.ucdavis.edu</p>
+
+<p>Everyone should get an account.<br />
+https://computing.genomecenter.ucdavis.edu</p>
+
+<p>Request an account -&gt; sponsor “Bioinformatics Core Workshop”</p>
+
+<p>If you already have an account on our systems, then please tell us your username.</p>
+
+<p>Cluster usage will be under the slurm reservation  ‘workshop’</p>
+
+<p>Reservation will last 1 full week after the workshop and allow you to practice or run analyze your own data.</p>
+
+<p><strong>workshop       ACTIVE  2019-08-19T00:00:00  2019-08-31T00:00:00  12-00:00:00  rafter-[0,2,8,14,18]</strong></p>
+
+
+</div>
+
+
+
+<script src="/assets/js/scale.fix.js"></script>
+
+<script>
+var navopen=1;
+
+function doNav() {
+  if (navopen == 1) {
+    document.getElementById("mySidenav").style.width = "0px";
+    document.getElementById("main").style.marginLeft = "0px";
+    document.getElementById("myHeader").style.marginLeft = "0px";
+    document.getElementById("mySidenav").style.overflowY = "hidden";
+    navopen = 0;
+  } else {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+    document.getElementById("myHeader").style.marginLeft = "300px";
+    document.getElementById("mySidenav").style.overflowY = "visible";
+    navopen = 1;
+  }
+}
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// store the sidenav scroll pos for loading or set the pos
+sn = document.getElementById("mySidenav");
+sn.onscroll = function() {sessionStorage.setItem("scrollpos",sn.scrollTop);};
+window.onload = function() {sn.scrollTop = sessionStorage.getItem("scrollpos");};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+</script>

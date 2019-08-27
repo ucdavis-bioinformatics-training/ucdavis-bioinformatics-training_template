@@ -1,0 +1,1049 @@
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146433201-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146433201-1');
+
+</script>
+</head>
+
+
+<link rel="stylesheet" href="/assets/highlight/styles/default.css">
+
+<script src="/assets/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<title>UCD Bioinformatics Core RNA-Seq Workshop</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
+
+<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <link rel="icon" type="image/png"  href="/assets/img/favicon.png">
+        <title>UC Davis Bioinformatics Workshop Base Template by ucdavis-bioinformatics-training</title>
+
+        <link rel="stylesheet" href="/assets/css/styles.css?v=22a1bf1e038521d63472a401b032dbdd184191bc">
+    <meta name="viewport" content="width=device-width">
+
+<body>
+    <div style="background-color: #001A46" class="header sticky" id="myHeader" style="width:100%;">
+      <a href="https://bioinformatics.ucdavis.edu/training/" class="logo">
+          <img src="/assets/img/biocore_banner.png">
+      </a>
+        <div>
+            <h2 style="float: left;padding-left:10px;padding-top:8px;background-color:#CFB53B; cursor:pointer;">
+                <div onclick="doNav()">&#9776; Menu </div>
+            </h2>
+            <h2 style="border-radius: 0px;padding-top:10px;background-color:#CFB53B;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UC Davis Bioinformatics Workshop Base Template</h2>
+        </div>
+    </div>
+</body>
+
+
+<div>
+    <div id="mySidenav" class="sidenav">
+      <!-- <a href="javascript:void(0)" class="closebtn" onclick="doNav()">&times;</a> -->
+
+        <table style="padding-top: 50px">
+            
+                
+                
+                  <tr><th><a href="/">Home</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Introduction</th>
+                  
+                
+                
+                  <tr><th><a href="/welcome">Intro to the Workshop and Core</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/pdfs/Genomics_a_perspective.pdf">What is Bioinformatics?</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/pdfs/ExperimentalDesign.pdf">Experimental Design and Cost Estimation</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Command-Line and the Cluster</th>
+                  
+                
+                
+                  <tr><th><a href="/cli/logging-in">Logging in and Transferring Files</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/command-line-intro">Intro to Command-Line</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/advanced-command-line">Advanced Command-Line</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/cluster">Running jobs on the Cluster and using modules</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Intro to R and Rstudio</th>
+                  
+                
+                
+                  <tr><th><a href="/intro2R/RStudio">Getting Started</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/Intro2R">Intro to R</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/data_in_R_prepare">Prepare Data in R (extra)</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/orig_data_in_R">Data in R (extra)</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Data Reduction</th>
+                  
+                
+                
+                  <tr><th><a href="/data_reduction/filetypes">Files and Filetypes for RNA-Seq</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/project_setup">Project Setup</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/preproc_htstream">Preprocessing Data</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/alignment">Aligners</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/counts">Generating Summarized Counts</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/salmon">Salmon</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Support</th>
+                  
+                
+                
+                  <tr><th><a href="/cheatSheetIndex">Cheat Sheets</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/software">Software and Links</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/script_links">Scripts</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Differential Expression and Pathway Analysis</th>
+                  
+                
+                
+                  <tr><th><a href="/differential_expression/de_analysis_prepare">Prepare Differential Expression Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/annotation">Get Gene Annotation</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/DE_Analysis">Differential Expression Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/enrichment">Pathway Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/compare_star_salmon">Comparison between STAR and Salmon</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">ETC</th>
+                  
+                
+                
+                  <tr><th><a href="/closing">Closing thoughts</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/photos/photos">Workshop Photos</a></th></tr>
+                
+            
+                
+                
+                  <tr id=Github ><th><a href="https://github.com/ucdavis-bioinformatics-training/2019_August_UCD_mRNAseq_Workshop">Github</a></th></tr>
+                
+            
+                
+                
+                  <tr id=Biocore website ><th><a href="http://bioinformatics.ucdavis.edu">Biocore website</a></th></tr>
+                
+            
+        </table>
+    </div>
+</div>
+
+
+<div id="main" style="padding-left: 50px; padding-right: 50px; margin-left: 300px; padding-top:170px">
+
+<p>Recreating (and maybe improving on) some of the figures generated with plot-bamstats application in R.</p>
+
+<h2 id="lets-start-by-making-sure-packages-and-data-can-be-loaded-and-read-in">Lets start by making sure packages and data can be loaded and read in.</h2>
+
+<p>First lets load knitr, tidyverse, reshape2 and gridExtra packages.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">knitr</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">── Attaching packages ─────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ──
+</div>
+
+<div class="output">✔ ggplot2 3.1.0     ✔ purrr   0.2.5
+✔ tibble  2.0.1     ✔ dplyr   0.7.8
+✔ tidyr   0.8.2     ✔ stringr 1.3.1
+✔ readr   1.3.1     ✔ forcats 0.3.0
+</div>
+
+<div class="output">── Conflicts ────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+</div>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">reshape2</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">
+Attaching package: 'reshape2'
+</div>
+
+<div class="output">The following object is masked from 'package:tidyr':
+
+    smiths
+</div>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">gridExtra</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">
+Attaching package: 'gridExtra'
+</div>
+
+<div class="output">The following object is masked from 'package:dplyr':
+
+    combine
+</div>
+
+<p>This document assumes you have the file ‘bwa_mem_Stats.log’ in your current working directory, lets test to make sure it is.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">getwd</span><span class="p">()</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">[1] "/Users/mattsettles/projects/src/github.com-ucdavis-bioinformatics-training/2019_August_UCD_mRNAseq_Workshop/intro2R"
+</div>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">dir</span><span class="p">()</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">[1] "bwa_mem_Stats.log"    "Data_in_R_Test.Rproj"     "data_in_R.Rmd" 
+</div>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">file.exists</span><span class="p">(</span><span class="s2">"bwa_mem_Stats.log"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">[1] TRUE
+</div>
+
+<p>If it returned TRUE, great! If not return to the Prepare data_in_R doc and follow the directions to get the file.</p>
+
+<p>So lets read in the file and view the first few lines and get the length</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">data</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">readLines</span><span class="p">(</span><span class="s2">"bwa_mem_Stats.log"</span><span class="p">)</span><span class="w">
+</span><span class="n">head</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">[1] "# This file was produced by samtools stats (1.9+htslib-1.9) and can be plotted using plot-bamstats"
+[2] "# This file contains statistics for all reads."                                                    
+[3] "# The command line was:  stats -@ 32 bwa.bam"                                                      
+[4] "# CHK, Checksum\t[2]Read Names\t[3]Sequences\t[4]Qualities"                                        
+[5] "# CHK, CRC32 of reads which passed filtering followed by addition (32bit overflow)"                
+[6] "CHK\t77e64415\t5b47b901\t532fe148"
+</div>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">tail</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">[1] "GCD\t19.0\t58.824\t0.007\t0.007\t0.007\t0.007\t0.007"
+[2] "GCD\t36.0\t70.588\t0.007\t0.007\t0.007\t0.007\t0.007"
+[3] "GCD\t38.0\t76.471\t0.007\t0.007\t0.007\t0.007\t0.007"
+[4] "GCD\t41.0\t82.353\t0.007\t0.007\t0.007\t0.007\t0.007"
+[5] "GCD\t42.0\t88.235\t0.007\t0.007\t0.007\t0.007\t0.007"
+[6] "GCD\t48.0\t100.000\t0.007\t0.007\t0.007\t0.007\t0.007"
+</div>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">length</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">[1] 1866
+</div>
+
+<p>There are many sections to the samtools stats output, each section begins with a two or three letter code.</p>
+
+<ul>
+  <li>Summary Numbers -&gt; SN</li>
+  <li>First Fragment Qualitites -&gt; FFQ</li>
+  <li>Last Fragment Qualitites -&gt; LFQ</li>
+  <li>GC Content of first fragments -&gt; GCF</li>
+  <li>GC Content of last fragments -&gt; GCL</li>
+  <li>ACGT content per cycle -&gt; GCC</li>
+  <li>Insert sizes -&gt; IS</li>
+  <li>Read lengths -&gt; RL</li>
+  <li>Indel distribution -&gt; ID</li>
+  <li>Indels per cycle -&gt; IC</li>
+  <li>Coverage distribution -&gt; COV</li>
+  <li>Coverage distribution -&gt; GCD</li>
+</ul>
+
+<p>With the exception of Summary Numbers, most sections are tables of data, the file explains the format of the
+data tables, open the log file (in Rstudio is fine) and search for the term ‘grep’.</p>
+
+<p>Lets take a quick look at the comments in the file</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">grep</span><span class="p">(</span><span class="s2">"^# "</span><span class="p">,</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">value</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="lets-first-parse-out-the-different-sections-and-save-them-into-different-variable-tables">Lets first parse out the different sections and save them into different variable (tables).</h2>
+
+<h3 id="summary-table">Summary table</h3>
+<p>First lets extract the Summary numbers and create a summary table</p>
+
+<ul>
+  <li>First extract the right rows, these begin with (^) SN.</li>
+  <li>Then turn it into a table using the function separate (View the help of separate)
+    <ul>
+      <li>with 3 columns (ID, Name, and Value)</li>
+      <li>separate by the tab character “\t”</li>
+      <li>and remove the first column ‘[,-1]’, the SN</li>
+    </ul>
+  </li>
+  <li>Print the table using kable from the knitr package (makes a pretty looking table)</li>
+</ul>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">?</span><span class="n">separate</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sn</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">grep</span><span class="p">(</span><span class="s2">"^SN"</span><span class="p">,</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">value</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+</span><span class="n">sn</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">separate</span><span class="p">(</span><span class="n">data.frame</span><span class="p">(</span><span class="n">sn</span><span class="p">),</span><span class="n">col</span><span class="o">=</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">into</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="s2">"ID"</span><span class="p">,</span><span class="w"> </span><span class="s2">"Name"</span><span class="p">,</span><span class="s2">"Value"</span><span class="p">),</span><span class="w"> </span><span class="n">sep</span><span class="o">=</span><span class="s2">"\t"</span><span class="p">)[,</span><span class="m">-1</span><span class="p">]</span><span class="w">
+</span><span class="n">kable</span><span class="p">(</span><span class="n">sn</span><span class="p">,</span><span class="w"> </span><span class="n">caption</span><span class="o">=</span><span class="s2">"Summary numbers"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">Table: Summary numbers
+
+Name                                       Value        
+-----------------------------------------  -------------
+raw total sequences:                       913311962    
+filtered sequences:                        0            
+sequences:                                 913311962    
+is sorted:                                 0            
+1st fragments:                             456655981    
+last fragments:                            456655981    
+reads mapped:                              800365919    
+reads mapped and paired:                   748856756    
+reads unmapped:                            112946043    
+reads properly paired:                     306860552    
+reads paired:                              913311962    
+reads duplicated:                          0            
+reads MQ0:                                 439677889    
+reads QC failed:                           0            
+non-primary alignments:                    290462657    
+total length:                              127407018699
+total first fragment length:               58451965568  
+total last fragment length:                68955053131  
+bases mapped:                              111789284981
+bases mapped (cigar):                      53892754351  
+bases trimmed:                             0            
+bases duplicated:                          0            
+mismatches:                                1041917776   
+error rate:                                1.933317e-02
+average length:                            139          
+average first fragment length:             128          
+average last fragment length:              151          
+maximum length:                            151          
+maximum first fragment length:             128          
+maximum last fragment length:              151          
+average quality:                           26.6         
+insert size average:                       176.9        
+insert size standard deviation:            132.5        
+inward oriented pairs:                     122015428    
+outward oriented pairs:                    32504015     
+pairs with other orientation:              4311328      
+pairs on different chromosomes:            215597607    
+percentage of properly paired reads (%):   33.6         
+</div>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">?</span><span class="n">kable</span><span class="w">
+</span></code></pre></div></div>
+
+<p><strong>On your own</strong>: While the Value column is numeric, by default it is being read in as characters. Lets use kable align parameter to left justify name and right justify value.</p>
+
+<h3 id="lets-get-the-next-section-read-lengths">Lets get the next section, read lengths</h3>
+
+<p>First lets extract the read length data and create a table</p>
+
+<ul>
+  <li>First extract the right rows, these begin (^) with RL.</li>
+  <li>Then turn it into a table using the function separate (View the help of separate)
+    <ul>
+      <li>with 6 columns (ID, insert size, pairs total, inward oriented pairs, outward oriented pairs, other pairs)</li>
+      <li>separate by the tab character “\t”</li>
+      <li>and remove the first column ‘[,-1]’, the IS</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">rl</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">grep</span><span class="p">(</span><span class="s2">"^RL"</span><span class="p">,</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">value</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+</span><span class="n">rl</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">separate</span><span class="p">(</span><span class="n">data.frame</span><span class="p">(</span><span class="n">rl</span><span class="p">),</span><span class="n">col</span><span class="o">=</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">into</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="s2">"ID"</span><span class="p">,</span><span class="w"> </span><span class="s2">"read_length"</span><span class="p">,</span><span class="w"> </span><span class="s2">"count"</span><span class="p">),</span><span class="w"> </span><span class="n">sep</span><span class="o">=</span><span class="s2">"\t"</span><span class="p">,</span><span class="w"> </span><span class="n">convert</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)[,</span><span class="m">-1</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="lets-get-the-insert-size-of-mapped-pairs">Lets get the insert size of mapped pairs</h3>
+
+<p>First lets extract the insert sizes data and create a table</p>
+
+<ul>
+  <li>First extract the right rows, these begin (^) with IS.</li>
+  <li>Then turn it into a table using the function separate (View the help of separate)
+    <ul>
+      <li>with 6 columns (ID, insert size, pairs total, inward oriented pairs, outward oriented pairs, other pairs)</li>
+      <li>separate by the tab character “\t”</li>
+      <li>and remove the first column ‘[,-1]’, the IS</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">is</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">grep</span><span class="p">(</span><span class="s2">"^IS"</span><span class="p">,</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">value</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+</span><span class="n">is</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">separate</span><span class="p">(</span><span class="n">data.frame</span><span class="p">(</span><span class="n">is</span><span class="p">),</span><span class="n">col</span><span class="o">=</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">into</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="s2">"ID"</span><span class="p">,</span><span class="w"> </span><span class="s2">"insert size"</span><span class="p">,</span><span class="s2">"all pairs"</span><span class="p">,</span><span class="w"> </span><span class="s2">"inward"</span><span class="p">,</span><span class="w"> </span><span class="s2">"outward"</span><span class="p">,</span><span class="w"> </span><span class="s2">"other"</span><span class="p">),</span><span class="w"> </span><span class="n">sep</span><span class="o">=</span><span class="s2">"\t"</span><span class="p">,</span><span class="w"> </span><span class="n">convert</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)[,</span><span class="m">-1</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="lets-get-the-acgt-content-per-cycle">Lets get the ACGT content per cycle</h3>
+
+<p>First lets extract the base composition of first and last pairs and create a table</p>
+
+<ul>
+  <li>First extract the right rows, these begin (^) with GCC.</li>
+  <li>Then turn it into a table using the function separate (View the help of separate)
+    <ul>
+      <li>with 6 columns (ID, insert size, pairs total, inward oriented pairs, outward oriented pairs, other pairs)</li>
+      <li>separate by the tab character “\t”</li>
+      <li>and remove the first column ‘[,-1]’, the GCC</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">actg</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">grep</span><span class="p">(</span><span class="s2">"^GCC"</span><span class="p">,</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">value</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+</span><span class="n">actg</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">separate</span><span class="p">(</span><span class="n">data.frame</span><span class="p">(</span><span class="n">actg</span><span class="p">),</span><span class="n">col</span><span class="o">=</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">into</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="s2">"ID"</span><span class="p">,</span><span class="w"> </span><span class="s2">"cycle"</span><span class="p">,</span><span class="w"> </span><span class="s2">"A"</span><span class="p">,</span><span class="w"> </span><span class="s2">"C"</span><span class="p">,</span><span class="w"> </span><span class="s2">"G"</span><span class="p">,</span><span class="w"> </span><span class="s2">"T"</span><span class="p">,</span><span class="w"> </span><span class="s2">"N"</span><span class="p">,</span><span class="w"> </span><span class="s2">"O"</span><span class="p">),</span><span class="w"> </span><span class="n">sep</span><span class="o">=</span><span class="s2">"\t"</span><span class="p">,</span><span class="w">  </span><span class="n">convert</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)[,</span><span class="m">-1</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="lets-get-the-fragment-qualities-of-mapped-pairs">Lets get the fragment qualities of mapped pairs</h3>
+
+<p>First lets extract the fragment qualities of first and last pairs and create a table</p>
+
+<ul>
+  <li>First extract the right rows, these begin (^) with FFQ or LFQ.</li>
+  <li>Then turn it into a table using the function separate (View the help of separate)
+    <ul>
+      <li>with 3 columns (Pair, Cycle, 1 … 43)</li>
+      <li>separate by the tab character “\t”</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fq</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">grep</span><span class="p">(</span><span class="s2">"^FFQ|^LFQ"</span><span class="p">,</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">value</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+</span><span class="n">fq</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">separate</span><span class="p">(</span><span class="n">data.frame</span><span class="p">(</span><span class="n">fq</span><span class="p">),</span><span class="n">col</span><span class="o">=</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">into</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="s2">"Pair"</span><span class="p">,</span><span class="w"> </span><span class="s2">"Cycle"</span><span class="p">,</span><span class="w"> </span><span class="n">seq</span><span class="p">(</span><span class="m">41</span><span class="p">)),</span><span class="w"> </span><span class="n">sep</span><span class="o">=</span><span class="s2">"\t"</span><span class="p">,</span><span class="w"> </span><span class="n">convert</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">Warning: Expected 43 pieces. Missing pieces filled with `NA` in 279
+rows [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+20, ...].
+</div>
+
+<p>We get a message here, saying data is missing. This is because there are no 38,39,40,41 quality scores (the typical range for Illumina qualities).</p>
+
+<h3 id="lets-get-the-gc-content-of-mapped-pairs">Lets get the GC content of mapped pairs</h3>
+
+<p>First lets extract the GC content of first and last pairs and create a table</p>
+
+<ul>
+  <li>First extract the right rows, these begin (^) with GCF or GCL.</li>
+  <li>Then turn it into a table using the function separate (View the help of separate)
+    <ul>
+      <li>with 3 columns (Pair, GC, Count)</li>
+      <li>separate by the tab character “\t”</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gc</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">grep</span><span class="p">(</span><span class="s2">"^GCF|^GCL"</span><span class="p">,</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">value</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+</span><span class="n">gc</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">separate</span><span class="p">(</span><span class="n">data.frame</span><span class="p">(</span><span class="n">gc</span><span class="p">),</span><span class="n">col</span><span class="o">=</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">into</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="s2">"Pair"</span><span class="p">,</span><span class="w"> </span><span class="s2">"GC"</span><span class="p">,</span><span class="w"> </span><span class="s2">"Count"</span><span class="p">),</span><span class="w"> </span><span class="n">sep</span><span class="o">=</span><span class="s2">"\t"</span><span class="p">,</span><span class="w"> </span><span class="n">convert</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="lets-get-the-indel-distribution">Lets get the Indel Distribution</h3>
+
+<p>First lets extract the indel distribution data and create a table</p>
+
+<ul>
+  <li>First extract the right rows, these begin (^) with ID.</li>
+  <li>Then turn it into a table using the function separate (View the help of separate)
+    <ul>
+      <li>with 4 columns (ID, length, insertion_count, deletion_count)</li>
+      <li>separate by the tab character “\t”</li>
+      <li>and remove the first column ‘[,-1]’, the ID</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">id</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">grep</span><span class="p">(</span><span class="s2">"^ID"</span><span class="p">,</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">value</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+</span><span class="n">id</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">separate</span><span class="p">(</span><span class="n">data.frame</span><span class="p">(</span><span class="n">id</span><span class="p">),</span><span class="n">col</span><span class="o">=</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">into</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="s2">"ID"</span><span class="p">,</span><span class="w"> </span><span class="s2">"length"</span><span class="p">,</span><span class="w"> </span><span class="s2">"insertion_count"</span><span class="p">,</span><span class="w"> </span><span class="s2">"deletion_count"</span><span class="p">),</span><span class="w"> </span><span class="n">sep</span><span class="o">=</span><span class="s2">"\t"</span><span class="p">,</span><span class="w"> </span><span class="n">covert</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)[,</span><span class="m">-1</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="lets-get-the-indel-per-cycle">Lets get the Indel per cycle</h3>
+
+<p>First lets extract the indel by cycle data and create a table</p>
+
+<ul>
+  <li>First extract the right rows, these begin (^) with IC.</li>
+  <li>Then turn it into a table using the function separate (View the help of separate)
+    <ul>
+      <li>with 6 columns (ID, cycle, ins_fwd, ins_rev, del_fwd, del_rev)</li>
+      <li>separate by the tab character “\t”</li>
+      <li>and remove the first column ‘[,-1]’, the IC</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ic</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">grep</span><span class="p">(</span><span class="s2">"^IC"</span><span class="p">,</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="n">value</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+</span><span class="n">ic</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">separate</span><span class="p">(</span><span class="n">data.frame</span><span class="p">(</span><span class="n">ic</span><span class="p">),</span><span class="n">col</span><span class="o">=</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="n">into</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="s2">"ID"</span><span class="p">,</span><span class="w"> </span><span class="s2">"cycle"</span><span class="p">,</span><span class="w"> </span><span class="s2">"ins_fwd"</span><span class="p">,</span><span class="w"> </span><span class="s2">"ins_rev"</span><span class="p">,</span><span class="w"> </span><span class="s2">"del_fwd"</span><span class="p">,</span><span class="w"> </span><span class="s2">"del_rev"</span><span class="p">),</span><span class="w"> </span><span class="n">sep</span><span class="o">=</span><span class="s2">"\t"</span><span class="p">,</span><span class="w"> </span><span class="n">convert</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)[,</span><span class="m">-1</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="lets-get-the-coverage-data-and-gc-coverage-data">Lets get the coverage data and GC Coverage data</h3>
+
+<p><strong>On your own</strong>: Use what you learned above to extract these 2 sections from the file.</p>
+
+<p>Coverage data</p>
+<ul>
+  <li>First extract the right rows, these begin (^) with IS.</li>
+  <li>Then turn it into a table using the function separate (View the help of separate)
+    <ul>
+      <li>with 6 columns (ID, coverage_range, coverage, bases)</li>
+      <li>separate by the tab character “\t”</li>
+      <li>and remove the first column ‘[,-1]’, the COV</li>
+    </ul>
+  </li>
+</ul>
+
+<p>GC Coverage data</p>
+<ul>
+  <li>First extract the right rows, these begin (^) with GCD.</li>
+  <li>Then turn it into a table using the function separate (View the help of separate)
+    <ul>
+      <li>with 8 columns (ID, GC, GC_percentile, gc.10, gc.25, gc.50, gc.75, gc.90)</li>
+      <li>separate by the tab character “\t”</li>
+      <li>and remove the first column ‘[,-1]’, the GCD</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="some-summary-stats-with">Some Summary stats with</h3>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">summarize</span><span class="p">(</span><span class="n">is</span><span class="p">,</span><span class="n">low</span><span class="o">=</span><span class="nf">min</span><span class="p">(</span><span class="n">`insert size`</span><span class="p">),</span><span class="w"> </span><span class="n">max</span><span class="o">=</span><span class="nf">max</span><span class="p">(</span><span class="n">`insert size`</span><span class="p">),</span><span class="w"> </span><span class="n">average</span><span class="o">=</span><span class="n">mean</span><span class="p">(</span><span class="n">`all pairs`</span><span class="p">),</span><span class="w"> </span><span class="n">noutward</span><span class="o">=</span><span class="nf">sum</span><span class="p">(</span><span class="n">outward</span><span class="p">),</span><span class="w"> </span><span class="n">ninward</span><span class="o">=</span><span class="nf">sum</span><span class="p">(</span><span class="n">inward</span><span class="p">))</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">  low max average noutward   ninward
+1   0 576  272522 32273430 120770240
+</div>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">new_is</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">mutate</span><span class="p">(</span><span class="n">is</span><span class="p">,</span><span class="n">poutward</span><span class="o">=</span><span class="n">outward</span><span class="o">/</span><span class="n">`all pairs`</span><span class="p">,</span><span class="w"> </span><span class="n">pinward</span><span class="o">=</span><span class="n">inward</span><span class="o">/</span><span class="n">`all pairs`</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p><strong>On your own</strong> Tasks</p>
+
+<p>Try using “distinct”, on is (or new_is) on the outward and inward columns</p>
+
+<h2 id="on-your-own-tasks"><strong>On your own</strong> Tasks</h2>
+
+<ol>
+  <li>View the head/tail of some (or even all) of the objects.</li>
+  <li>Use dim to get an idea of the table dimentions.</li>
+  <li>Use summary to summarize to produce summary statistics (min, max, means, 1st and 3rd quartile boundaries) the columns.</li>
+  <li>Any other summaries?</li>
+</ol>
+
+<p>So now we have new objects (data.frames) that hold the data we are interested in plotting</p>
+
+<ul>
+  <li>Summary Numbers -&gt; SN -&gt; sn</li>
+  <li>First Fragment Qualitites -&gt; FFQ -&gt; fq</li>
+  <li>Last Fragment Qualitites -&gt; LFQ -&gt; fq</li>
+  <li>GC Content of first fragments -&gt; GCF -&gt; gc</li>
+  <li>GC Content of last fragments -&gt; GCL -&gt; gc</li>
+  <li>ACGT content per cycle -&gt; GCC -&gt; actg</li>
+  <li>Insert sizes -&gt; IS -&gt; is</li>
+  <li>Read lengths -&gt; RL -&gt; rl</li>
+  <li>Indel distribution -&gt; ID -&gt; id</li>
+  <li>Indels per cycle -&gt; IC -&gt; ic</li>
+  <li>Coverage distribution -&gt; COV -&gt; cov</li>
+  <li>Coverage distribution -&gt; GCD -&gt; gccov</li>
+</ul>
+
+<h2 id="now-lets-go-over-some-basics-of-ggplot2">Now lets go over some basics of ggplot2</h2>
+
+<p>ggplot2 uses a basic syntax framework (called a Grammar in ggplot2) for all plot types:</p>
+
+<p>A basic ggplot2 plot consists of the following components:</p>
+
+<ul>
+  <li>data in the form of a data frame</li>
+  <li>aesthetics: How your data are represented
+    <ul>
+      <li>x, y, color, size, shape</li>
+    </ul>
+  </li>
+  <li>geometry: Geometries of the plotted objects
+    <ul>
+      <li>points, lines, bars, etc.</li>
+    </ul>
+  </li>
+  <li>Addition plotting componants
+    <ul>
+      <li>statistical transformations</li>
+      <li>scales</li>
+      <li>coordinate system</li>
+      <li>position adjustments</li>
+      <li>faceting</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The basic idea: independently specify plot building blocks and combine them (using ‘+’) to create just about any kind of graphical display you want.</p>
+
+<p>ggplot (data = &lt;DATA&gt; ) +<br />
+  &lt;GEOM_FUNCTION&gt; (mapping = aes( &lt;MAPPINGS&gt; ), stat = &lt;STAT&gt; , position = &lt;POSITION&gt; ) +<br />
+  &lt;COORDINATE_FUNCTION&gt; +<br />
+  &lt;FACET_FUNCTION&gt; +<br />
+  &lt;SCALE_FUNCTION&gt; +<br />
+  &lt;THEME_FUNCTION&gt;</p>
+
+<h3 id="our-first-plot-plotting-the-insert-size-of-mapped-fragments">Our first plot, plotting the insert size of mapped fragments</h3>
+
+<p>We use the ggplot function and define the data as ‘is’ and x, y as as.numeric(get(“insert size”)), as.numeric(get(“all pairs”)), respectively. We use “get” because they have spaces in the names, and as.numeric because the data are characters (due to the manner in which we readin the data.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">g</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">is</span><span class="p">)</span><span class="w">
+</span><span class="n">g</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_line</span><span class="p">(</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">get</span><span class="p">(</span><span class="s2">"insert size"</span><span class="p">),</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="n">get</span><span class="p">(</span><span class="s2">"all pairs"</span><span class="p">)))</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/plot_is-1.png" alt="" /><!-- --></p>
+
+<p>Ok, now lets add some labels to the plot</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">g</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_line</span><span class="p">(</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">get</span><span class="p">(</span><span class="s2">"insert size"</span><span class="p">),</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="n">get</span><span class="p">(</span><span class="s2">"all pairs"</span><span class="p">)))</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">labs</span><span class="p">(</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"insert size"</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"all pairs"</span><span class="p">,</span><span class="w"> </span><span class="n">title</span><span class="w"> </span><span class="o">=</span><span class="s2">"Mapped insert sizes"</span><span class="p">,</span><span class="w"> </span><span class="n">subtitle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"All Pairs"</span><span class="p">,</span><span class="w"> </span><span class="n">caption</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"all pairs insert size"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/plot_is_labels-1.png" alt="" /><!-- --></p>
+
+<p>Ok, what about plotting multiple data objects on the same plot (multiple lines), in that case we can specifically set the y axis in geom_line and color, then call geom_lines twice (or more times).</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">g</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">is</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">get</span><span class="p">(</span><span class="s2">"insert size"</span><span class="p">)))</span><span class="w">
+</span><span class="n">g</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_line</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">get</span><span class="p">(</span><span class="s2">"inward"</span><span class="p">)),</span><span class="n">color</span><span class="o">=</span><span class="s2">"blue"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">  
+    </span><span class="n">geom_line</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">get</span><span class="p">(</span><span class="s2">"outward"</span><span class="p">)),</span><span class="n">color</span><span class="o">=</span><span class="s2">"orange"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
+    </span><span class="n">labs</span><span class="p">(</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"insert size"</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"all pairs"</span><span class="p">,</span><span class="w"> </span><span class="n">title</span><span class="w"> </span><span class="o">=</span><span class="s2">"Mapped insert sizes"</span><span class="p">,</span><span class="w"> </span><span class="n">subtitle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"All Pairs"</span><span class="p">,</span><span class="w"> </span><span class="n">caption</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"all pairs insert size"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/plot_is_mlines-1.png" alt="" /><!-- --></p>
+
+<p>lets try adjusting the x/y limits to 0,600 and 0,20000 respectively.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">g</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_line</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">get</span><span class="p">(</span><span class="s2">"inward"</span><span class="p">)),</span><span class="n">color</span><span class="o">=</span><span class="s2">"blue"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">geom_line</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">get</span><span class="p">(</span><span class="s2">"outward"</span><span class="p">)),</span><span class="n">color</span><span class="o">=</span><span class="s2">"orange"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">coord_cartesian</span><span class="p">(</span><span class="n">xlim</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">500</span><span class="p">),</span><span class="w"> </span><span class="n">ylim</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">600000</span><span class="p">))</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/plot_is_limits-1.png" alt="" /><!-- --></p>
+
+<p>Ok so now put all these elements together into a single plot, save final plot as ‘g’</p>
+
+<p>** On your own**: Ok so put it all together, plot all four columns of the insert size data object, add in legends, reasonable coordinate limits</p>
+
+<p>** On your own**: Play with ggplot2 themes (ex. theme_classic() )</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">g</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">is</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">get</span><span class="p">(</span><span class="s2">"insert size"</span><span class="p">)))</span><span class="w">
+</span><span class="n">g</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">g</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_line</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">get</span><span class="p">(</span><span class="s2">"all pairs"</span><span class="p">)),</span><span class="w"> </span><span class="n">color</span><span class="o">=</span><span class="s2">"black"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">  
+    </span><span class="n">geom_line</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">get</span><span class="p">(</span><span class="s2">"inward"</span><span class="p">)),</span><span class="n">color</span><span class="o">=</span><span class="s2">"blue"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">  
+    </span><span class="n">geom_line</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">get</span><span class="p">(</span><span class="s2">"outward"</span><span class="p">)),</span><span class="n">color</span><span class="o">=</span><span class="s2">"orange"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
+    </span><span class="n">geom_line</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="n">get</span><span class="p">(</span><span class="s2">"other"</span><span class="p">)),</span><span class="w"> </span><span class="n">color</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span><span class="w">
+</span><span class="n">g</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">g</span><span class="w"> </span><span class="o">+</span><span class="w">
+    </span><span class="n">labs</span><span class="p">(</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"insert size"</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"all pairs"</span><span class="p">,</span><span class="w"> </span><span class="n">title</span><span class="w"> </span><span class="o">=</span><span class="s2">"Mapped insert sizes"</span><span class="p">,</span><span class="w"> </span><span class="n">subtitle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"All Pairs"</span><span class="p">,</span><span class="w"> </span><span class="n">caption</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"all pairs insert size"</span><span class="p">)</span><span class="w">
+</span><span class="n">g</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">g</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">coord_cartesian</span><span class="p">(</span><span class="n">xlim</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">500</span><span class="p">),</span><span class="w"> </span><span class="n">ylim</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">600000</span><span class="p">))</span><span class="w">
+</span><span class="n">g</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">g</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">theme_light</span><span class="p">()</span><span class="w">
+</span><span class="n">plot</span><span class="p">(</span><span class="n">g</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/insert_length-1.png" alt="" /><!-- --></p>
+
+<h3 id="plotting-gc-content">Plotting GC content</h3>
+
+<p>In order to plot GC percentage we first need to convert the counts to proportions, to do so we can divide the counts by the sum of counts.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">head</span><span class="p">(</span><span class="n">gc</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">  Pair   GC Count
+1  GCF 0.25  9986
+2  GCF 1.01  6442
+3  GCF 1.76  6816
+4  GCF 2.51  8029
+5  GCF 3.27  9586
+6  GCF 4.02 11557
+</div>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">h</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">gc</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="nf">as.numeric</span><span class="p">(</span><span class="n">GC</span><span class="p">),</span><span class="w"> </span><span class="n">Count</span><span class="o">/</span><span class="nf">sum</span><span class="p">(</span><span class="n">Count</span><span class="p">),</span><span class="n">color</span><span class="o">=</span><span class="n">Pair</span><span class="p">))</span><span class="w">
+</span><span class="n">h</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">h</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_line</span><span class="p">()</span><span class="w">
+</span><span class="n">h</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/plot_gc-1.png" alt="" /><!-- --></p>
+
+<p>** On your own**: Finish the plot (add labels, etc.). Save the final graph object in h</p>
+
+<h3 id="plotting-the-base-composition-by-cycle">Plotting the base composition by cycle</h3>
+
+<p>Sometimes we may need to transform our data before plotting. The melt funciton from reshape2 takes data in wide format (data are in columns) and stacks a set of columns into a single column of data. In the ACTG object we can stack bases values by cycle.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">actgm</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">melt</span><span class="p">(</span><span class="n">actg</span><span class="p">,</span><span class="n">id</span><span class="o">=</span><span class="s2">"cycle"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>now head the new actgm object. What did melt do?</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ic</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">actgm</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="nf">as.numeric</span><span class="p">(</span><span class="n">cycle</span><span class="p">),</span><span class="w"> </span><span class="nf">as.numeric</span><span class="p">(</span><span class="n">value</span><span class="p">),</span><span class="w"> </span><span class="n">by</span><span class="o">=</span><span class="n">variable</span><span class="p">,</span><span class="w"> </span><span class="n">colour</span><span class="o">=</span><span class="n">variable</span><span class="p">))</span><span class="w">
+</span><span class="n">i</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ic</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_line</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">coord_cartesian</span><span class="p">(</span><span class="n">ylim</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">100</span><span class="p">))</span><span class="w">
+</span><span class="n">i</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/plot_base_comp-1.png" alt="" /><!-- --></p>
+
+<p>** On your own**: Using what you learned until now, finish the plot, save it as object i</p>
+
+<h3 id="lets-now-do-a-boxplot-of-basepair">Lets now do a boxplot of basepair</h3>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">i</span><span class="m">2</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ic</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_boxplot</span><span class="p">()</span><span class="w">
+</span><span class="n">i</span><span class="m">2</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/actg_boxplot-1.png" alt="" /><!-- --></p>
+
+<p>** On your own**: Try some other geometries (Ex. bin2d, col, count, which generate an ‘interpretable’ plot)</p>
+
+<h3 id="plotting-a-heatmap-of-qualities">Plotting a heatmap of qualities</h3>
+
+<p>First lets melt the quality scores</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fqm</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">melt</span><span class="p">(</span><span class="n">fq</span><span class="p">,</span><span class="n">id</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="s2">"Pair"</span><span class="p">,</span><span class="s2">"Cycle"</span><span class="p">))</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Take a look at the new object</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">j</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">fqm</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">Cycle</span><span class="p">,</span><span class="w"> </span><span class="n">variable</span><span class="p">))</span><span class="w">
+</span><span class="n">j</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_tile</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">fill</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">as.numeric</span><span class="p">(</span><span class="n">value</span><span class="p">)))</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/plot_heatmap-1.png" alt="" /><!-- --></p>
+
+<p>Now lets try changing the gradient colors and modify the legend, add labels. The ggplot2 ‘theme’ function can be used to modify individual components of a theme.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">?</span><span class="n">theme</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_tile</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">fill</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">as.numeric</span><span class="p">(</span><span class="n">value</span><span class="p">)))</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">scale_fill_gradient</span><span class="p">(</span><span class="n">low</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"red"</span><span class="p">,</span><span class="w"> </span><span class="n">high</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"green"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">ylab</span><span class="p">(</span><span class="s2">"Cycle"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">xlab</span><span class="p">(</span><span class="s2">"Quality"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">theme</span><span class="p">(</span><span class="n">legend.title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">10</span><span class="p">),</span><span class="w">
+        </span><span class="n">legend.text</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">12</span><span class="p">),</span><span class="w">
+        </span><span class="n">plot.title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="m">16</span><span class="p">),</span><span class="w">
+        </span><span class="n">axis.title</span><span class="o">=</span><span class="n">element_text</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="m">14</span><span class="p">,</span><span class="n">face</span><span class="o">=</span><span class="s2">"bold"</span><span class="p">),</span><span class="w">
+        </span><span class="n">axis.text.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">angle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">90</span><span class="p">,</span><span class="w"> </span><span class="n">hjust</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">labs</span><span class="p">(</span><span class="n">fill</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Quality value"</span><span class="p">)</span><span class="w">
+</span><span class="n">j</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/heatmap-1.png" alt="" /><!-- --></p>
+
+<p>** On your own** Try modifying scale_fill_gradient to scale_fill_distiller.</p>
+
+<p>** On your own** Play with parts of the plotting function, see how the change modifies the plot.</p>
+
+<h3 id="plotting-indel-lengths">Plotting indel lengths</h3>
+
+<p>** On your own**  Recreate the indel lengths plot</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">k</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="nf">as.numeric</span><span class="p">(</span><span class="n">length</span><span class="p">)))</span><span class="w">
+</span><span class="n">k</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">k</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_line</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="nf">as.numeric</span><span class="p">(</span><span class="n">insertion_count</span><span class="p">)),</span><span class="w"> </span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"red"</span><span class="p">,</span><span class="w"> </span><span class="n">size</span><span class="o">=</span><span class="m">1.5</span><span class="p">)</span><span class="w">
+</span><span class="n">k</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">k</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_line</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="nf">as.numeric</span><span class="p">(</span><span class="n">deletion_count</span><span class="p">)),</span><span class="w"> </span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"black"</span><span class="p">,</span><span class="w"> </span><span class="n">size</span><span class="o">=</span><span class="m">1.5</span><span class="p">)</span><span class="w">
+</span><span class="n">k</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/indel_plot-1.png" alt="" /><!-- --></p>
+
+<p>Lets try changing the Y axis to log scale</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">k</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">k</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">scale_y_log10</span><span class="p">()</span><span class="w">
+</span><span class="n">k</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/indel_plot2-1.png" alt="" /><!-- --></p>
+
+<p>Tweek the grid elments using theme</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">k</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">k</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">theme</span><span class="p">(</span><span class="n">panel.grid.minor</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_blank</span><span class="p">(),</span><span class="w">
+  </span><span class="n">panel.grid.major</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_line</span><span class="p">(</span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"gray50"</span><span class="p">,</span><span class="w"> </span><span class="n">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.5</span><span class="p">),</span><span class="w">
+  </span><span class="n">panel.grid.major.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_blank</span><span class="p">())</span><span class="w">
+</span><span class="n">k</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">Warning: Transformation introduced infinite values in continuous y-axis
+</div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/grid_tweek-1.png" alt="" /><!-- --></p>
+
+<h2 id="update-the-axis-labels">update the axis labels</h2>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">k</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">k</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">xlab</span><span class="p">(</span><span class="s2">"indel length"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">ylab</span><span class="p">(</span><span class="s2">"indel count (log10)"</span><span class="p">)</span><span class="w">
+</span><span class="n">k</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">Warning: Transformation introduced infinite values in continuous y-axis
+</div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/new_axis_lables-1.png" alt="" /><!-- --></p>
+
+<p>Now lets also plot the ratio of the 2, but first we need to create the object</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">id</span><span class="o">$</span><span class="n">ratio</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">as.numeric</span><span class="p">(</span><span class="n">id</span><span class="o">$</span><span class="n">insertion_count</span><span class="p">)</span><span class="o">/</span><span class="nf">as.numeric</span><span class="p">(</span><span class="n">id</span><span class="o">$</span><span class="n">deletion_count</span><span class="p">)</span><span class="w">
+</span><span class="n">l</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="nf">as.numeric</span><span class="p">(</span><span class="n">length</span><span class="p">)))</span><span class="w">
+</span><span class="n">l</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">l</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_line</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="nf">as.numeric</span><span class="p">(</span><span class="n">ratio</span><span class="p">)),</span><span class="w"> </span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"green"</span><span class="p">,</span><span class="w"> </span><span class="n">size</span><span class="o">=</span><span class="m">1.0</span><span class="p">)</span><span class="w">
+</span><span class="n">l</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/ratio-1.png" alt="" /><!-- -->
+Tweek the grid</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">l</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">l</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">theme</span><span class="p">(</span><span class="n">panel.grid.minor</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_blank</span><span class="p">(),</span><span class="w">
+  </span><span class="n">panel.grid.major</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_line</span><span class="p">(</span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"gray50"</span><span class="p">,</span><span class="w"> </span><span class="n">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.5</span><span class="p">),</span><span class="w">
+  </span><span class="n">panel.grid.major.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_blank</span><span class="p">())</span><span class="w">
+</span><span class="n">l</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/unnamed-chunk-1-1.png" alt="" /><!-- -->
+Update axis labels</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">l</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">l</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">xlab</span><span class="p">(</span><span class="s2">"indel length"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">ylab</span><span class="p">(</span><span class="s2">"insertion/deletion ratio"</span><span class="p">)</span><span class="w">
+</span><span class="n">l</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/update_labels-1.png" alt="" /><!-- --></p>
+
+<p>Now lets use gridExtra to plot both in the same plat</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">grid.arrange</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="w"> </span><span class="n">l</span><span class="p">,</span><span class="w"> </span><span class="n">nrow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">Warning: Transformation introduced infinite values in continuous y-axis
+</div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/grid-1.png" alt="" /><!-- --></p>
+
+<h3 id="fancy-multiple-plots-in-a-grid">Fancy Multiple plots in a grid</h3>
+<p>The gridExtra package is great for plotting multiple object in one plot.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">include_graphics</span><span class="p">(</span><span class="s2">"https://raw.githubusercontent.com/ucdavis-bioinformatics-training/2019_August_UCD_mRNAseq_Workshop/master/intro2R/Data_in_R_figures/grid_plot.png"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="https://raw.githubusercontent.com/ucdavis-bioinformatics-training/2019_August_UCD_mRNAseq_Workshop/master/intro2R/Data_in_R_figures/grid_plot.png" alt="" /><!-- --></p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">full</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">grid.arrange</span><span class="p">(</span><span class="w">
+  </span><span class="n">g</span><span class="p">,</span><span class="w"> </span><span class="n">h</span><span class="p">,</span><span class="w"> </span><span class="n">i</span><span class="p">,</span><span class="w"> </span><span class="n">i</span><span class="m">2</span><span class="p">,</span><span class="w">
+  </span><span class="n">widths</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="m">2</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">),</span><span class="w">
+  </span><span class="n">layout_matrix</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">rbind</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="m">2</span><span class="p">,</span><span class="w"> </span><span class="kc">NA</span><span class="p">),</span><span class="w">
+                        </span><span class="nf">c</span><span class="p">(</span><span class="m">3</span><span class="p">,</span><span class="w"> </span><span class="m">3</span><span class="p">,</span><span class="w"> </span><span class="m">4</span><span class="p">))</span><span class="w">
+</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p><img src="/intro2R/orig_data_in_R_files/figure-html/cluster-1.png" alt="" /><!-- --></p>
+
+<p>** on your own**: Play with th grid.arrange function, using the plots you’ve created to create you own final combined plot.</p>
+
+<h3 id="saving-plots-as-png-or-pdf">Saving plots as png or pdf</h3>
+
+<p>This must be done outside of the Notebook as the notebook expects you to plot in the notebook only, so run on the Console.</p>
+
+<p>Saving plots to pdf ** do on the console **</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ggsave</span><span class="p">(</span><span class="s2">"multi_plot.pdf"</span><span class="p">,</span><span class="n">full</span><span class="p">,</span><span class="n">device</span><span class="o">=</span><span class="s2">"pdf"</span><span class="p">,</span><span class="n">width</span><span class="o">=</span><span class="m">6</span><span class="p">,</span><span class="n">height</span><span class="o">=</span><span class="m">4</span><span class="p">,</span><span class="w"> </span><span class="n">units</span><span class="o">=</span><span class="s2">"in"</span><span class="p">,</span><span class="w"> </span><span class="n">dpi</span><span class="o">=</span><span class="m">300</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Saving plots to png  ** do on the console **</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ggsave</span><span class="p">(</span><span class="s2">"multi_plot.png"</span><span class="p">,</span><span class="n">full</span><span class="p">,</span><span class="n">device</span><span class="o">=</span><span class="s2">"png"</span><span class="p">,</span><span class="n">width</span><span class="o">=</span><span class="m">6</span><span class="p">,</span><span class="n">height</span><span class="o">=</span><span class="m">4</span><span class="p">,</span><span class="w"> </span><span class="n">units</span><span class="o">=</span><span class="s2">"in"</span><span class="p">,</span><span class="w"> </span><span class="n">dpi</span><span class="o">=</span><span class="m">300</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>View the help documentation for ggsave, what other</p>
+
+<p>With any remaining time (or homework), use the ggplot cheat sheet to further expand and modify the plots.</p>
+
+<h2 id="ggplot2-book-by-its-author-hadley-wickham">ggplot2 book by its author, Hadley Wickham</h2>
+
+<p><a href="http://moderngraphics11.pbworks.com/f/ggplot2-Book09hWickham.pdf">book in PDF form</a></p>
+
+<p><a href="https://github.com/hadley/ggplot2-book">book on GitHub</a></p>
+
+<p>Its always good to end any Notebook with Session info, records all the packages loaded and their versions</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sessionInfo</span><span class="p">()</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="output">R version 3.5.2 (2018-12-20)
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+Running under: macOS Mojave 10.14.3
+
+Matrix products: default
+BLAS: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRblas.0.dylib
+LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] bindrcpp_0.2.2  gridExtra_2.3   reshape2_1.4.3  forcats_0.3.0  
+ [5] stringr_1.3.1   dplyr_0.7.8     purrr_0.2.5     readr_1.3.1    
+ [9] tidyr_0.8.2     tibble_2.0.1    ggplot2_3.1.0   tidyverse_1.2.1
+[13] knitr_1.21     
+
+loaded via a namespace (and not attached):
+ [1] tidyselect_0.2.5 xfun_0.4         haven_2.0.0      lattice_0.20-38
+ [5] colorspace_1.4-0 generics_0.0.2   htmltools_0.3.6  yaml_2.2.0      
+ [9] rlang_0.3.1      pillar_1.3.1     glue_1.3.0       withr_2.1.2     
+[13] modelr_0.1.2     readxl_1.2.0     bindr_0.1.1      plyr_1.8.4      
+[17] munsell_0.5.0    gtable_0.2.0     cellranger_1.1.0 rvest_0.3.2     
+[21] evaluate_0.12    labeling_0.3     highr_0.7        broom_0.5.1     
+[25] Rcpp_1.0.0       scales_1.0.0     backports_1.1.3  jsonlite_1.6    
+[29] hms_0.4.2        digest_0.6.18    stringi_1.2.4    grid_3.5.2      
+[33] cli_1.0.1        tools_3.5.2      magrittr_1.5     lazyeval_0.2.1  
+[37] crayon_1.3.4     pkgconfig_2.0.2  xml2_1.2.0       lubridate_1.7.4
+[41] assertthat_0.2.0 rmarkdown_1.11   httr_1.4.0       rstudioapi_0.9.0
+[45] R6_2.3.0         nlme_3.1-137     compiler_3.5.2
+</div>
+
+
+</div>
+
+
+
+<script src="/assets/js/scale.fix.js"></script>
+
+<script>
+var navopen=1;
+
+function doNav() {
+  if (navopen == 1) {
+    document.getElementById("mySidenav").style.width = "0px";
+    document.getElementById("main").style.marginLeft = "0px";
+    document.getElementById("myHeader").style.marginLeft = "0px";
+    document.getElementById("mySidenav").style.overflowY = "hidden";
+    navopen = 0;
+  } else {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+    document.getElementById("myHeader").style.marginLeft = "300px";
+    document.getElementById("mySidenav").style.overflowY = "visible";
+    navopen = 1;
+  }
+}
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// store the sidenav scroll pos for loading or set the pos
+sn = document.getElementById("mySidenav");
+sn.onscroll = function() {sessionStorage.setItem("scrollpos",sn.scrollTop);};
+window.onload = function() {sn.scrollTop = sessionStorage.getItem("scrollpos");};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+</script>

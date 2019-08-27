@@ -1,0 +1,361 @@
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146433201-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146433201-1');
+
+</script>
+</head>
+
+
+<link rel="stylesheet" href="/assets/highlight/styles/default.css">
+
+<script src="/assets/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<title>UCD Bioinformatics Core RNA-Seq Workshop</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
+
+<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <link rel="icon" type="image/png"  href="/assets/img/favicon.png">
+        <title>UC Davis Bioinformatics Workshop Base Template by ucdavis-bioinformatics-training</title>
+
+        <link rel="stylesheet" href="/assets/css/styles.css?v=22a1bf1e038521d63472a401b032dbdd184191bc">
+    <meta name="viewport" content="width=device-width">
+
+<body>
+    <div style="background-color: #001A46" class="header sticky" id="myHeader" style="width:100%;">
+      <a href="https://bioinformatics.ucdavis.edu/training/" class="logo">
+          <img src="/assets/img/biocore_banner.png">
+      </a>
+        <div>
+            <h2 style="float: left;padding-left:10px;padding-top:8px;background-color:#CFB53B; cursor:pointer;">
+                <div onclick="doNav()">&#9776; Menu </div>
+            </h2>
+            <h2 style="border-radius: 0px;padding-top:10px;background-color:#CFB53B;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UC Davis Bioinformatics Workshop Base Template</h2>
+        </div>
+    </div>
+</body>
+
+
+<div>
+    <div id="mySidenav" class="sidenav">
+      <!-- <a href="javascript:void(0)" class="closebtn" onclick="doNav()">&times;</a> -->
+
+        <table style="padding-top: 50px">
+            
+                
+                
+                  <tr><th><a href="/">Home</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Introduction</th>
+                  
+                
+                
+                  <tr><th><a href="/welcome">Intro to the Workshop and Core</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/pdfs/Genomics_a_perspective.pdf">What is Bioinformatics?</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/pdfs/ExperimentalDesign.pdf">Experimental Design and Cost Estimation</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Command-Line and the Cluster</th>
+                  
+                
+                
+                  <tr><th><a href="/cli/logging-in">Logging in and Transferring Files</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/command-line-intro">Intro to Command-Line</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/advanced-command-line">Advanced Command-Line</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/cluster">Running jobs on the Cluster and using modules</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Intro to R and Rstudio</th>
+                  
+                
+                
+                  <tr><th><a href="/intro2R/RStudio">Getting Started</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/Intro2R">Intro to R</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/data_in_R_prepare">Prepare Data in R (extra)</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/orig_data_in_R">Data in R (extra)</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Data Reduction</th>
+                  
+                
+                
+                  <tr><th><a href="/data_reduction/filetypes">Files and Filetypes for RNA-Seq</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/project_setup">Project Setup</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/preproc_htstream">Preprocessing Data</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/alignment">Aligners</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/counts">Generating Summarized Counts</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/salmon">Salmon</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Support</th>
+                  
+                
+                
+                  <tr><th><a href="/cheatSheetIndex">Cheat Sheets</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/software">Software and Links</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/script_links">Scripts</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Differential Expression and Pathway Analysis</th>
+                  
+                
+                
+                  <tr><th><a href="/differential_expression/de_analysis_prepare">Prepare Differential Expression Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/annotation">Get Gene Annotation</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/DE_Analysis">Differential Expression Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/enrichment">Pathway Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/compare_star_salmon">Comparison between STAR and Salmon</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">ETC</th>
+                  
+                
+                
+                  <tr><th><a href="/closing">Closing thoughts</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/photos/photos">Workshop Photos</a></th></tr>
+                
+            
+                
+                
+                  <tr id=Github ><th><a href="https://github.com/ucdavis-bioinformatics-training/2019_August_UCD_mRNAseq_Workshop">Github</a></th></tr>
+                
+            
+                
+                
+                  <tr id=Biocore website ><th><a href="http://bioinformatics.ucdavis.edu">Biocore website</a></th></tr>
+                
+            
+        </table>
+    </div>
+</div>
+
+
+<div id="main" style="padding-left: 50px; padding-right: 50px; margin-left: 300px; padding-top:170px">
+
+<h1 id="logging-in--transferring-files">Logging In &amp; Transferring Files</h1>
+
+<p>You should already have an account on our systems</p>
+
+<h2 id="for-macslinux---logging-in">For Macs/Linux - Logging In</h2>
+
+<ol>
+  <li>Open a Terminal (usually under Applications/Utilities on a Mac), or install <a href="https://www.iterm2.com/">iterm2</a></li>
+  <li>
+    <p>Cut and paste this into the terminal:</p>
+
+    <p>ssh username@tadpole.genomecenter.ucdavis.edu</p>
+  </li>
+</ol>
+
+<p>where ‘username’ is replaced with your username. Press Enter.</p>
+
+<ol>
+  <li>Type in your password. No characters will display when you are typing. Press Enter.</li>
+</ol>
+
+<h3 id="for-macslinux---transferring-files">For Macs/Linux - Transferring files</h3>
+
+<ol>
+  <li>
+    <p>Use scp (secure copy, a remote file copying program):</p>
+
+    <p>scp username@tadpole.genomecenter.ucdavis.edu:full/path/to/file .</p>
+  </li>
+  <li>
+    <p>Replace ‘username’ with your username and replace ‘full/path/to/file’ with the full path to the file you want to transfer. Note that there is a “.” at the end of the command, which is where to put the file, i.e. your current directory. You will have to type in your password.</p>
+  </li>
+</ol>
+
+<h2 id="for-windows---logging-in">For Windows - Logging In</h2>
+
+<p>Windows needs a terminal to connect with, you have a few options:</p>
+
+<ol>
+  <li><a href="https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/">Shell for Windows 10</a></li>
+  <li><a href="https://ittutorials.net/microsoft/windows-10/enable-ssh-windows-10-command-prompt/">Enable SSH</a>
+OR</li>
+  <li><a href="https://mobaxterm.mobatek.net/">MobaXterm</a></li>
+  <li><a href="http://www.putty.org/">PuTTY</a></li>
+</ol>
+
+<p>In putty, mobaxterm:</p>
+<ol>
+  <li>Open up terminal.</li>
+  <li>In the Host Name field, type <strong>tadpole.genomecenter.ucdavis.edu</strong></li>
+  <li>Make sure the Connection Type is SSH.</li>
+  <li>Press “Open”. It will ask you for your username and password.</li>
+</ol>
+
+<p>In Shell with SSH enabled:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh username@tadpole.genomecenter.ucdavis.edu
+</code></pre></div></div>
+
+<p>where ‘username’ is replaced with your username. Press Enter.</p>
+
+<h3 id="for-windows---transferring-files">For Windows - Transferring files</h3>
+
+<ol>
+  <li>Open up WinSCP. If you haven’t installed it, get WinSCP <a href="https://winscp.net/eng/download.php">here</a>.</li>
+  <li>In the Host Name field, type <strong>tadpole.genomecenter.ucdavis.edu</strong></li>
+  <li>Type in your username and password.</li>
+  <li>Make sure the File Protocol is SFTP.</li>
+  <li>Press “Login”.</li>
+</ol>
+
+
+</div>
+
+
+
+<script src="/assets/js/scale.fix.js"></script>
+
+<script>
+var navopen=1;
+
+function doNav() {
+  if (navopen == 1) {
+    document.getElementById("mySidenav").style.width = "0px";
+    document.getElementById("main").style.marginLeft = "0px";
+    document.getElementById("myHeader").style.marginLeft = "0px";
+    document.getElementById("mySidenav").style.overflowY = "hidden";
+    navopen = 0;
+  } else {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+    document.getElementById("myHeader").style.marginLeft = "300px";
+    document.getElementById("mySidenav").style.overflowY = "visible";
+    navopen = 1;
+  }
+}
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// store the sidenav scroll pos for loading or set the pos
+sn = document.getElementById("mySidenav");
+sn.onscroll = function() {sessionStorage.setItem("scrollpos",sn.scrollTop);};
+window.onload = function() {sn.scrollTop = sessionStorage.getItem("scrollpos");};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+</script>

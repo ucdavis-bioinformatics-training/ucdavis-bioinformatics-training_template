@@ -1,0 +1,377 @@
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146433201-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146433201-1');
+
+</script>
+</head>
+
+
+<link rel="stylesheet" href="/assets/highlight/styles/default.css">
+
+<script src="/assets/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<title>UCD Bioinformatics Core RNA-Seq Workshop</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
+
+<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <link rel="icon" type="image/png"  href="/assets/img/favicon.png">
+        <title>UC Davis Bioinformatics Workshop Base Template by ucdavis-bioinformatics-training</title>
+
+        <link rel="stylesheet" href="/assets/css/styles.css?v=22a1bf1e038521d63472a401b032dbdd184191bc">
+    <meta name="viewport" content="width=device-width">
+
+<body>
+    <div style="background-color: #001A46" class="header sticky" id="myHeader" style="width:100%;">
+      <a href="https://bioinformatics.ucdavis.edu/training/" class="logo">
+          <img src="/assets/img/biocore_banner.png">
+      </a>
+        <div>
+            <h2 style="float: left;padding-left:10px;padding-top:8px;background-color:#CFB53B; cursor:pointer;">
+                <div onclick="doNav()">&#9776; Menu </div>
+            </h2>
+            <h2 style="border-radius: 0px;padding-top:10px;background-color:#CFB53B;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UC Davis Bioinformatics Workshop Base Template</h2>
+        </div>
+    </div>
+</body>
+
+
+<div>
+    <div id="mySidenav" class="sidenav">
+      <!-- <a href="javascript:void(0)" class="closebtn" onclick="doNav()">&times;</a> -->
+
+        <table style="padding-top: 50px">
+            
+                
+                
+                  <tr><th><a href="/">Home</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Introduction</th>
+                  
+                
+                
+                  <tr><th><a href="/welcome">Intro to the Workshop and Core</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/pdfs/Genomics_a_perspective.pdf">What is Bioinformatics?</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/pdfs/ExperimentalDesign.pdf">Experimental Design and Cost Estimation</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Command-Line and the Cluster</th>
+                  
+                
+                
+                  <tr><th><a href="/cli/logging-in">Logging in and Transferring Files</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/command-line-intro">Intro to Command-Line</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/advanced-command-line">Advanced Command-Line</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/cli/cluster">Running jobs on the Cluster and using modules</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Intro to R and Rstudio</th>
+                  
+                
+                
+                  <tr><th><a href="/intro2R/RStudio">Getting Started</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/Intro2R">Intro to R</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/data_in_R_prepare">Prepare Data in R (extra)</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/intro2R/orig_data_in_R">Data in R (extra)</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Data Reduction</th>
+                  
+                
+                
+                  <tr><th><a href="/data_reduction/filetypes">Files and Filetypes for RNA-Seq</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/project_setup">Project Setup</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/preproc_htstream">Preprocessing Data</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/alignment">Aligners</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/counts">Generating Summarized Counts</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/data_reduction/salmon">Salmon</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Support</th>
+                  
+                
+                
+                  <tr><th><a href="/cheatSheetIndex">Cheat Sheets</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/software">Software and Links</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/script_links">Scripts</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">Differential Expression and Pathway Analysis</th>
+                  
+                
+                
+                  <tr><th><a href="/differential_expression/de_analysis_prepare">Prepare Differential Expression Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/annotation">Get Gene Annotation</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/DE_Analysis">Differential Expression Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/enrichment">Pathway Analysis</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/differential_expression/compare_star_salmon">Comparison between STAR and Salmon</a></th></tr>
+                
+            
+                
+                  <th style="font-size:22px; color:#CFB53B">ETC</th>
+                  
+                
+                
+                  <tr><th><a href="/closing">Closing thoughts</a></th></tr>
+                
+            
+                
+                
+                  <tr><th><a href="/photos/photos">Workshop Photos</a></th></tr>
+                
+            
+                
+                
+                  <tr id=Github ><th><a href="https://github.com/ucdavis-bioinformatics-training/2019_August_UCD_mRNAseq_Workshop">Github</a></th></tr>
+                
+            
+                
+                
+                  <tr id=Biocore website ><th><a href="http://bioinformatics.ucdavis.edu">Biocore website</a></th></tr>
+                
+            
+        </table>
+    </div>
+</div>
+
+
+<div id="main" style="padding-left: 50px; padding-right: 50px; margin-left: 300px; padding-top:170px">
+
+<h1 id="project-setup">Project Setup</h1>
+
+<p>Let’s set up a project directory for the week, and talk a bit about project philosophy..</p>
+
+<p><strong>1.</strong> First, create a directory for your user and the example project in the workshop directory:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd
+mkdir -p /share/workshop/$USER/rnaseq_example
+</code></pre></div></div>
+
+<hr />
+
+<p><strong>2a.</strong> Next, go into that directory, create a raw data directory (we are going to call this 00-RawData) and cd into that directory. Lets then create symbolic links to the sample directories that contains the raw data.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd /share/workshop/$USER/rnaseq_example
+mkdir 00-RawData
+cd 00-RawData/
+ln -s /share/biocore/workshops/2019_August_RNAseq/00-RawData/* .
+</code></pre></div></div>
+
+<p>This directory now contains a folder for each sample and the fastq files for each sample are in the sample folders.</p>
+
+<p><strong>2b.</strong> Let’s create a sample sheet for the project and store sample names in a file called samples.txt</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ls &gt; ../samples.txt
+cat ../samples.txt
+</code></pre></div></div>
+
+<hr />
+<p><strong>3a.</strong> Now, take a look at the raw data directory.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ls /share/workshop/$USER/rnaseq_example/00-RawData
+</code></pre></div></div>
+
+<p><strong>3b.</strong> You will see a list of the contents of each directory.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ls *
+</code></pre></div></div>
+
+<p><strong>3c.</strong> Lets get a better look at all the files in all of the directories.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ls -lah */*
+</code></pre></div></div>
+
+<hr />
+
+<p><strong>5.</strong> Pick a directory and go into it. View the contents of the files using the ‘less’ command, when gzipped used ‘zless’ (which is just the ‘less’ command for gzipped files):</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd SampleAC1/
+zless SampleAC1_L3_R1.fastq.gz
+</code></pre></div></div>
+
+<p>Make sure you can identify which lines correspond to a single read and which lines are the header, sequence, and quality values. Press ‘q’ to exit this screen. Then, let’s figure out the number of reads in this file. A simple way to do that is to count the number of lines and divide by 4 (because the record of each read uses 4 lines). In order to do this use cat to output the uncompressed file and pipe that to “wc” to count the number of lines:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>zcat SampleAC1_L3_R1.fastq.gz | wc -l
+</code></pre></div></div>
+
+<p>Divide this number by 4 and you have the number of reads in this file. One more thing to try is to figure out the length of the reads without counting each nucleotide. First get the first 4 lines of the file (i.e. the first record):</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>zcat SampleAC1_L3_R1.fastq.gz  | head -2 | tail -1
+</code></pre></div></div>
+
+<p>Note the header lines (1st and 3rd line) and sequence and quality lines (2nd and 4th) in each 4-line fastq block. Then, copy and paste the DNA sequence line into the following command (replace [sequence] with the line):</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo -n [sequence] | wc -c
+</code></pre></div></div>
+
+<p>This will give you the length of the read.</p>
+
+<p>Also can do the bash one liner:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo -n $(zcat SampleAC1_L3_R1.fastq.gz  | head -2 | tail -1) | wc -c
+</code></pre></div></div>
+
+<p>See if you can figure out how this command works.</p>
+
+<hr />
+
+<p><strong>5.</strong> Now go back to your ‘rnaseq_example’ directory and create two directories called ‘slurmout’ and ‘01-HTS_Preproc’:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd /share/workshop/$USER/rnaseq_example
+mkdir slurmout
+mkdir 01-HTS_Preproc
+</code></pre></div></div>
+
+<p>The results of all our slurm script will output to .out and .err files into the slurmout folder. The results of our preprocessing steps will be put into the 01-HTS_Preproc directory. The next step after that will go into a “02-…” directory, etc. You can collect scripts that perform each step, and notes and metadata relevant for each step, in the directory for that step. This way anyone looking to replicate your analysis has limited places to search for the commands you used. In addition, you may want to change the permissions on your original 00-RawData directory to “read only”, so that you can never corrupt your raw data. (We won’t worry about this here, because we’ve linked in sample folders).</p>
+
+
+</div>
+
+
+
+<script src="/assets/js/scale.fix.js"></script>
+
+<script>
+var navopen=1;
+
+function doNav() {
+  if (navopen == 1) {
+    document.getElementById("mySidenav").style.width = "0px";
+    document.getElementById("main").style.marginLeft = "0px";
+    document.getElementById("myHeader").style.marginLeft = "0px";
+    document.getElementById("mySidenav").style.overflowY = "hidden";
+    navopen = 0;
+  } else {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+    document.getElementById("myHeader").style.marginLeft = "300px";
+    document.getElementById("mySidenav").style.overflowY = "visible";
+    navopen = 1;
+  }
+}
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// store the sidenav scroll pos for loading or set the pos
+sn = document.getElementById("mySidenav");
+sn.onscroll = function() {sessionStorage.setItem("scrollpos",sn.scrollTop);};
+window.onload = function() {sn.scrollTop = sessionStorage.getItem("scrollpos");};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+</script>
