@@ -98,9 +98,10 @@ function doNav() {
 
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
+
+// store the sidenav scroll pos for loading or set the pos
 sn = document.getElementById("mySidenav");
 sn.onscroll = function() {sessionStorage.setItem("scrollpos",sn.scrollTop);};
-
 window.onload = function() {sn.scrollTop = sessionStorage.getItem("scrollpos");};
 
 // Get the header
