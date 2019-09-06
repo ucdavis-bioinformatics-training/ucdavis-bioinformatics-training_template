@@ -183,3 +183,19 @@ a
   </tr>
 </tbody>
 </table>
+
+
+
+## OUTPUT (VERY WIDE) (actually this is a file)
+
+<div class="output">Taxon_Name	MeanBootstrapValue	MeanLengthMerged	PercentageAsPairs	Total
+d__Bacteria	0.997	421	0.0	126506
+d__Bacteria;p__Acetothermia;c__Acetothermia_genera_incertae_sedis;o__Acetothermia_genera_incertae_sedis;f__Acetothermia_genera_incertae_sedis;g__Acetothermia_genera_incertae_sedis	0.56	421	0.0	1
+d__Bacteria;p__Acidobacteria	0.605	424	0.0	1483
+d__Bacteria;p__Acidobacteria;c__Acidobacteria_Gp1	0.983	403	0.0	1049
+d__Bacteria;p__Acidobacteria;c__Acidobacteria_Gp10;o__Gp10;f__Gp10;g__Gp10	0.98	427	0.0	8312
+d__Bacteria;p__Acidobacteria;c__Acidobacteria_Gp11;o__Gp11;f__Gp11;g__Gp11	0.792	406	0.0	321
+d__Bacteria;p__Acidobacteria;c__Acidobacteria_Gp12;o__Gp12;f__Gp12;g__Gp12	0.999	403	0.0	34
+d__Bacteria;p__Acidobacteria;c__Acidobacteria_Gp13;o__Gp13;f__Gp13;g__Gp13	0.998	423	0.0	13
+d__Bacteria;p__Acidobacteria;c__Acidobacteria_Gp15;o__Gp15;f__Gp15;g__Gp15	0.961	414	0.0	1356
+</div>
