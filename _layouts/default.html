@@ -101,9 +101,6 @@ function doNav() {
   }
 }
 
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
 // store the sidenav scroll pos for loading or set the pos
 sn = document.getElementById("mySidenav");
 sn.onscroll = function() {sessionStorage.setItem("scrollpos",sn.scrollTop);};
@@ -114,15 +111,5 @@ var header = document.getElementById("myHeader");
 
 // Get the offset position of the navbar
 var sticky = header.offsetTop;
-
-
-function myFunction() {
-  var x = document.getElementById("myDIV");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
 
 </script>
