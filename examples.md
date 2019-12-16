@@ -104,6 +104,14 @@ write.table(top.table, file = "A.C_v_B.C.txt", row.names = F, sep = "\t", quote 
     
 </code></pre>
 
+## Embedding PDFs
+<object data="https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+
 
 ## R CODE
 - run the `alter_rmd.py` script to change some of the R formatting.
